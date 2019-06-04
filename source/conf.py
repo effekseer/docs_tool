@@ -39,10 +39,10 @@ release = u''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.githubpages',
+    'sphinxcontrib.rawfiles',
     'sphinx_markdown_tables',
 ]
-
+rawfiles = ['img']
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
