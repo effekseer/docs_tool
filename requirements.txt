@@ -1,0 +1,6 @@
+###### Requirements without Version Specifiers ######
+sphinx
+commonmark
+recommonmark
+sphinx-markdown-tables
+sphinx_rtd_theme
