@@ -188,3 +188,10 @@ epub_exclude_files = ['search.html']
 # Additional config
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
+
+from recommonmark.transform import AutoStructify
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            }, True)
+    app.add_transform(AutoStructify)

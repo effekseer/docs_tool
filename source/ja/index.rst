@@ -14,5 +14,6 @@ Effekseer Help 日本語
 
     overview
     ToolTutorial/index
+    ToolReference/index
     ToolTips/01
     faq
