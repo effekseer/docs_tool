@@ -6,3 +6,4 @@ Hello Effekseer !
    :maxdepth: 1
    
    /ja/index
+   /en/index
