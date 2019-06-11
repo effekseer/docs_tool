@@ -43,6 +43,10 @@ There are two unique file formats for this tool. The first one is ".efkproj", wh
     culling
     behavior
     record
+    fileviewer
+    global
+    options
+    depth
 ```
 
 ## Command Line
