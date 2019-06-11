@@ -32,7 +32,7 @@ To uninstall, just delete each directory.
 
 To play effects in your game, you must download separate packages such as the runtime, Unity, or DX libraries.  
 
-Alternatively, if you just want to use the effect as an exported image, sprite sheet, or video, refer to the [Recording](ToolReference/record.html) reference guide.
+Alternatively, if you just want to use the effect as an exported image, sprite sheet, or video, refer to the [Recording](ToolReference/record) reference guide.
 
 ## License
 
