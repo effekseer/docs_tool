@@ -4,7 +4,7 @@ $(function () {
 
     $('body').append(canvas)
     var scene = new THREE.Scene();
-    camera = new THREE.PerspectiveCamera(30, 1, 1, 1000);
+    camera = new THREE.PerspectiveCamera(30, 4/3, 1, 1000);
     var target = new THREE.Vector3({x:0,y:0,z:0,});
     camera.position.set(0, 2, 40);
     camera.lookAt(target);
