@@ -42,7 +42,7 @@ extensions = [
     'sphinxcontrib.rawfiles',
     'sphinx_markdown_tables',
 ]
-rawfiles = ['img']
+rawfiles = ['img', 'Sample']
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -195,3 +195,8 @@ def setup(app):
     app.add_config_value('recommonmark_config', {
             }, True)
     app.add_transform(AutoStructify)
+    
+    app.add_javascript('js/three.min.js')
+    app.add_javascript('js/effekseer.min.js')
+    app.add_javascript('js/iframe.js')
+    app.add_javascript('js/OrbitControls.js')
