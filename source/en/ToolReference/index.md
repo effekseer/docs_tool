@@ -12,7 +12,10 @@ With this tool, you create an effect by editing nodes. Nodes have parent-child r
 
 I will explain parent-child relationships using an example. In this example, node 2 is the child of node 1, and node 3 is the child of node 2\. An effect 1 particle will be generated from node 1\. After a few frames, several effect 2 particles will be generated relative to the position of the effect 1 particle generated from node 1\. After a few more frames, several effect 3 particles will be generated relative to the positions of each of the node 2 particles. This is shown in the figure below. In this way, by describing the behavior of the effect through parent-child relationships on the nodes, a much greater variety of effects can be expressed. In this tool, one effect generated based on the parameters within a "node" is called a "particle".
 
-<div align="center">![](../../img/Reference/overview_en.png)</div>
+```eval_rst
+.. image:: ../../img/Reference/overview_en.png
+   :align: center
+```
 
 ### File Format
 
@@ -53,50 +56,19 @@ There are two unique file formats for this tool. The first one is ".efkproj", wh
 
 When starting Effekseer from the command line, you can change the behavior of Effekseer by adding arguments. For example, you can convert ".efkproj" files to ".efk" without activating the Effekseer GUI. By combining this with a script, you can batch convert effect files in any folder at once.
 
-<table border="1">
+```eval_rst
 
-<tbody>
+.. list-table:: Command Line
+   :widths: 20 70
 
-<tr>
-
-<td nowrap="">-cui</td>
-
-<td>Start up in CUI mode</td>
-
-</tr>
-
-<tr>
-
-<td nowrap="">-in *</td>
-
-<td>* open and launch</td>
-
-</tr>
-
-<tr>
-
-<td nowrap="">-o *</td>
-
-<td>Save as *</td>
-
-</tr>
-
-<tr>
-
-<td nowrap="">-e *</td>
-
-<td>Output in standard format to *</td>
-
-</tr>
-
-<tr>
-
-<td nowrap="">-m *</td>
-
-<td>Set the magnification ratio of the effect when outputting in standard format to *</td>
-
-</tr>
-
-</tbody>
-
-</table>
+   * - -cui
+     - Start up in CUI mode
+   * - -in \*
+     - \* open and launch
+   * - -o \*
+     - Save as \*
+   * - -e \*
+     - Output in standard format to \*
+   * - -m \*
+     - Set the magnification ratio of the effect when outputting in standard format to \*
+```
