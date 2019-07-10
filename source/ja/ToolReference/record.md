@@ -10,9 +10,9 @@
 
 <tr>
 
-<td>![](../../img/Reference/record_anim.jpg)</td>
+<td><img src="../../img/Reference/record_anim.jpg"></td>
 
-<td>![](../../img/Reference/record_gifanim.gif)</td>
+<td><img src="../../img/Reference/record_gifanim.gif"></td>
 
 </tr>
 
@@ -72,11 +72,11 @@
 
 <tr>
 
-<td>![](../../img/Reference/record_single.jpg)</td>
+<td><img src="../../img/Reference/record_single.jpg"></td>
 
-<td>![](../../img/Reference/record_seq.jpg)</td>
+<td><img src="../../img/Reference/record_seq.jpg"></td>
 
-<td>![](../../img/Reference/record_gifanim.gif)</td>
+<td><img src="../../img/Reference/record_gifanim.gif"></td>
 
 </tr>
 

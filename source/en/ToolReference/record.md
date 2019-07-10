@@ -10,9 +10,9 @@ Allows you to output the created effect as a sprite sheet, gif animation, AVI, e
 
 <tr>
 
-<td>![](../../img/Reference/record_anim.jpg)</td>
+<td><img src="../../img/Reference/record_anim.jpg"/></td>
 
-<td>![](../../img/Reference/record_gifanim.gif)</td>
+<td><img src="../../img/Reference/record_gifanim.gif"/></td>
 
 </tr>
 
@@ -72,11 +72,11 @@ There are 4 options: "Export as a single image", "Export images", "Export as a g
 
 <tr>
 
-<td>![](../../img/Reference/record_single.jpg)</td>
+<td><img src="../../img/Reference/record_single.jpg"/></td>
 
-<td>![](../../img/Reference/record_seq.jpg)</td>
+<td><img src="../../img/Reference/record_seq.jpg"/></td>
 
-<td>![](../../img/Reference/record_gifanim.gif)</td>
+<td><img src="../../img/Reference/record_gifanim.gif"/></td>
 
 </tr>
 

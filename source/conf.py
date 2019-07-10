@@ -191,6 +191,8 @@ gettext_compact = False     # optional.
 
 from recommonmark.transform import AutoStructify
 
+html_show_sourcelink = False
+
 def setup(app):
     app.add_config_value('recommonmark_config', {
             }, True)

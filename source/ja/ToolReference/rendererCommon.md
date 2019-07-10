@@ -90,11 +90,11 @@ Fカーブを使用します。
 
 <tr>
 
-<td>![](../../img/Reference/renderCommon_inherit_color_none.gif)</td>
+<td><img src="../../img/Reference/renderCommon_inherit_color_none.gif"/></td>
 
-<td>![](../../img/Reference/renderCommon_inherit_color_when.gif)</td>
+<td><img src="../../img/Reference/renderCommon_inherit_color_when.gif"/></td>
 
-<td>![](../../img/Reference/renderCommon_inherit_color_always.gif)</td>
+<td><img src="../../img/Reference/renderCommon_inherit_color_always.gif"/></td>
 
 </tr>
 
@@ -142,9 +142,9 @@ Fカーブを使用します。
 
 <tr>
 
-<td>![](../../img/Reference/renderCommon_distortion_on.gif)</td>
+<td><img src="../../img/Reference/renderCommon_distortion_on.gif"/></td>
 
-<td>![](../../img/Reference/renderCommon_distortion_off.gif)</td>
+<td><img src="../../img/Reference/renderCommon_distortion_off.gif"/></td>
 
 </tr>
 
