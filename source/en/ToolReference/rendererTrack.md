@@ -38,9 +38,9 @@ Division : 8
 
 <tr>
 
-<td>![](../../img/Reference/ribbon_track_division_1.png)</td>
+<td><img src="../../img/Reference/ribbon_track_division_1.png"/></td>
 
-<td>![](../../img/Reference/ribbon_track_division_8.png)</td>
+<td><img src="../../img/Reference/ribbon_track_division_8.png"/></td>
 
 </tr>
 

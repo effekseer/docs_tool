@@ -24,9 +24,9 @@
 
 <tr>
 
-<td>![](../../img/Reference/affect_angle.png)</td>
+<td><img src="../../img/Reference/affect_angle.png"/></td>
 
-<td>![](../../img/Reference/affect_no_angle.png)</td>
+<td><img src="../../img/Reference/affect_no_angle.png"/></td>
 
 </tr>
 
@@ -122,11 +122,11 @@ Z軸
 
 <tr>
 
-<td>![](../../img/Reference/locationGene_circle_xaxis.png)</td>
+<td><img src="../../img/Reference/locationGene_circle_xaxis.png"/></td>
 
-<td>![](../../img/Reference/locationGene_circle_yaxis.png)</td>
+<td><img src="../../img/Reference/locationGene_circle_yaxis.png"/></td>
 
-<td>![](../../img/Reference/locationGene_circle_zaxis.png)</td>
+<td><img src="../../img/Reference/locationGene_circle_zaxis.png"/></td>
 
 </tr>
 

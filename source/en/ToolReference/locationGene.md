@@ -24,9 +24,9 @@ Specify whether the parameter of the spawning method affects not only the positi
 
 <tr>
 
-<td>![](../../img/Reference/affect_angle.png)</td>
+<td><img src="../../img/Reference/affect_angle.png"/></td>
 
-<td>![](../../img/Reference/affect_no_angle.png)</td>
+<td><img src="../../img/Reference/affect_no_angle.png"/></td>
 
 </tr>
 
@@ -122,11 +122,11 @@ Outer direction
 
 <tr>
 
-<td>![](../../img/Reference/locationGene_circle_xaxis.png)</td>
+<td><img src="../../img/Reference/locationGene_circle_xaxis.png"/></td>
 
-<td>![](../../img/Reference/locationGene_circle_yaxis.png)</td>
+<td><img src="../../img/Reference/locationGene_circle_yaxis.png"/></td>
 
-<td>![](../../img/Reference/locationGene_circle_zaxis.png)</td>
+<td><img src="../../img/Reference/locationGene_circle_zaxis.png"/></td>
 
 </tr>
 
