@@ -202,3 +202,4 @@ def setup(app):
     app.add_javascript('js/effekseer.min.js')
     app.add_javascript('js/iframe.js')
     app.add_javascript('js/OrbitControls.js')
+    app.add_stylesheet('css/custom.css')
