@@ -1,4 +1,4 @@
-# Overview
+﻿# Overview
 
 ## Operating Environment, Required Runtimes, etc.
 
@@ -350,6 +350,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 *   Added many functions to CameraSettings
 *   Changed a specification that behavior is enabled in recording
 *   Added post effect function
+*   Added a sprite with lighting and normal map
+*   Added a sampler type for a normal map
 *   Fixed a bug that a sprite sheet contains extra frames
 
 *   Fixed a bug that random numbers overflowed (random behavior may change)
