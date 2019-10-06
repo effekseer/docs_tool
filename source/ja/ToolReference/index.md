@@ -51,9 +51,14 @@
 
 #### 色の入力方法
 
-色も同様に入力欄をマウスで左クリックすると入力できるようになります。
+色はテキストボックスに加えて、色の欄をマウスで左クリックすると入力できるようになります。
 
-左クリックで色の欄をドラッグすると、他の色の入力欄に値をコピーできます。
+```eval_rst
+.. image:: ../../img/Reference/Overview/input_color_basic.png
+   :align: center
+```
+
+左クリックで色の欄をドラッグすると、他の色の欄に値をコピーできます。
 
 ```eval_rst
 .. image:: ../../img/Reference/Overview/input_color.png

@@ -51,9 +51,14 @@ Left-click and drag a text entry box to change the value gradually.
 
 #### How to input a color
 
-A color can be also entered by left-clicking a color field with the mouse.
+In addition to the text box, the color can be entered by left-clicking the color field with the mouse.
 
-Left-click and drag a color entry box to copy the value to another color field.
+```eval_rst
+.. image:: ../../img/Reference/Overview/input_color_basic.png
+   :align: center
+```
+
+Left-click and drag a color field to copy the value to another color field.
 
 ```eval_rst
 .. image:: ../../img/Reference/Overview/input_color.png
