@@ -4,11 +4,15 @@
 
 エディタ上でのエフェクトの表示方法を設定します。複数表示させるなど、ゲーム中に近い表現を再現できます。
 
+<iframe src='../../Effects/viewer_ja.html#References/Behavior/Original.efk'></iframe>
+
 ## パラメーター
 
 ### 初期位置
 
 1フレーム目のエフェクトのルートのパーティクルの位置を指定します。
+
+<iframe src='../../Effects/viewer_ja.html#References/Behavior/InitialPosition.efk'></iframe>
 
 ### 移動速度
 
