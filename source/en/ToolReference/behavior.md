@@ -4,11 +4,15 @@
 
 Changes how effects are displayed in the editor. Representations close to the game can be reproduced, such as displaying multiple particles.
 
+<iframe src='../../Effects/viewer_en.html#References/Behavior/Original.efk'></iframe>
+
 ## Parameter
 
 ### Pos
 
 Specify the position of the root node in the node tree.
+
+<iframe src='../../Effects/viewer_en.html#References/Behavior/InitialPosition.efk'></iframe>
 
 ### Speed
 
