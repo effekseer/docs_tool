@@ -12,6 +12,10 @@
 ![](../../img/Reference/renderRing.png)
 
 ## パラメーター
+<div align="center">
+<img src="../../img/Reference/Render/panel_ring_ja.png">
+<p>「描画」ウインドウ</p>
+</div>
 
 ### 描画順
 

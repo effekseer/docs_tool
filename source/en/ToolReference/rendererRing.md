@@ -11,6 +11,11 @@ The ring consists of a triple structure of outside, center and inside.
 ![](../../img/Reference/renderRing.png)
 
 ## Parameters
+<div align="center">
+<img src="../../img/Reference/Render/panel_ring_en.png">
+<p>"Render Settings" window</p>
+</div>
+
 
 ### Rendering Order
 

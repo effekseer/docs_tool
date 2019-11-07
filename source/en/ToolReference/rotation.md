@@ -5,6 +5,10 @@
 Set parameters related to the rotation of the node.
 
 ## Parameters
+<div align="center">
+<img src="../../img/Tutorial/04_rotation_en.png">
+<p>"Rotation" window</p>
+</div>
 
 ### Rotation
 
@@ -17,6 +21,11 @@ Specify the angle of the particle.
 #### Position, Velocity, Acceleration (PVA)
 
 Specify the initial angle, rotational speed, and angular acceleration of the particle.
+
+<div align="center">
+<img src="../../img/Tutorial/04_rotate.gif">
+<p>Rotation</p>
+</div>
 
 #### Easing
 

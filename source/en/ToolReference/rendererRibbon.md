@@ -11,6 +11,11 @@ The ribbon is not drawn for each individual particle. Rather, it connects all ch
 ![](../../img/Reference/renderRibbon.png)
 
 ## Parameters
+<div align="center">
+<img src="../../img/Reference/Render/panel_ribbon_en.png">
+<p>"Render Settings" window</p>
+</div>
+
 
 ### Rendering Order
 

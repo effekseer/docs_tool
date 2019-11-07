@@ -12,6 +12,10 @@
 ![](../../img/Reference/renderTrack.png)
 
 ## パラメーター
+<div align="center">
+<img src="../../img/Reference/Render/panel_track_ja.png">
+<p>「描画」ウインドウ</p>
+</div>
 
 ### スプラインの分割数 (1.4以降)
 

@@ -5,6 +5,10 @@
 Set parameters that control forces applied to particles that are independent of the position and angle of the parent particle. These parameters move the particles after the parent particle and child particle position changes have been applied.
 
 ## Parameters
+<div align="center">
+<img src="../../img/Reference/Atraction/panel_en.png">
+<p>"Attraction Forces" window</p>
+</div>
 
 ### None
 

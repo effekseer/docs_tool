@@ -6,6 +6,10 @@
 ノードの回転に関するパラメーターを設定します。
 
 ## パラメーター
+<div align="center">
+<img src="../../img/Tutorial/04_rotation_ja.png">
+<p>「回転」ウインドウ</p>
+</div>
 
 ### 回転
 
@@ -18,6 +22,10 @@
 #### 角度・速度・加速度
 
 パーティクルの角度・速度・加速度を指定します。
+<div align="center">
+<img src="../../img/Tutorial/04_rotate.gif">
+<p>回転</p>
+</div>
 
 #### イージング
 

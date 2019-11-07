@@ -11,6 +11,10 @@ The track is drawn by connecting a thick line between all the children of a cert
 ![](../../img/Reference/renderTrack.png)
 
 ## Parameters
+<div align="center">
+<img src="../../img/Reference/Render/panel_track_en.png">
+<p>"Render Settings" window</p>
+</div>
 
 ### The number of spline division (1.4 or later)
 

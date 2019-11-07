@@ -10,6 +10,10 @@
 ![](../../img/Reference/renderSprite.png)
 
 ## パラメーター
+<div align="center">
+<img src="../../img/Reference/Render/panel_sprite_ja.png">
+<p>「描画」ウインドウ</p>
+</div>
 
 ### 描画順
 

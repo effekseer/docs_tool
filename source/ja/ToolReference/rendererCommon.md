@@ -5,6 +5,10 @@
 全ての描画方法に共通するパラメーターを設定する「描画共通」について説明します。
 
 ## パラメーター
+<div align="center">
+<img src="../../img/Tutorial/03_rendercommon_ja.png">
+<p>「描画共通」ウインドウ</p>
+</div>
 
 ### 色/歪み画像
 
