@@ -9,6 +9,10 @@ When "Sprite" is selected, a simple square/rectangular surface will be drawn.
 ![](../../img/Reference/renderSprite.png)
 
 ## Parameters
+<div align="center">
+<img src="../../img/Reference/Render/panel_sprite_en.png">
+<p>"Render Settings" window</p>
+</div>
 
 ### Rendering Order
 

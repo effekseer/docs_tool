@@ -6,6 +6,11 @@ Set parameters related to the scale/expansion of the node.
 
 ## Parameter
 
+<div align="center">
+<img src="../../img/Tutorial/04_scale_en.png">
+<p>"Scale" window</p>
+</div>
+
 ### Scaling
 
 Specifies the spawn scale of the particle. This will influence the scale of the particle relative to its parent particle. If there is no parent particle, or scale is set to not inherit in the Basic Settings window, this will specify the absolute scale instead.
@@ -17,6 +22,10 @@ Specify the scale of the particle.
 #### Position, Velocity, Acceleration (PVA)
 
 Specify the initial scale, expansion velocity, and expansion acceleration of the particle.
+<div align="center">
+<img src="../../img/Tutorial/04_scale.gif">
+<p>Scale</p>
+</div>
 
 #### Easing
 

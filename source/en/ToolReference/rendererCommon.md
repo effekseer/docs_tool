@@ -5,6 +5,10 @@
 This section explains about the "Basic Render Settings" window, which provides common parameters that manipulate how the current node's particles are drawn.
 
 ## Parameter
+<div align="center">
+<img src="../../img/Tutorial/03_rendercommon_en.png">
+<p>"Basic Render Settings" window</p>
+</div>
 
 ### Texture (color/distortion)
 
