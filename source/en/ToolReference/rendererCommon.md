@@ -38,6 +38,7 @@ When a particle is first spawned, it fades in over a duration until fully visibl
 ### Fade-Out
 
 When a particle is about to be despawned, it fades out over a duration and disappears.
+<iframe src='../../Effects/viewer_en.html#References/Render/fade_in_out.efkefc'></iframe>
 
 ### UV
 

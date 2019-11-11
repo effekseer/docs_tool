@@ -38,6 +38,7 @@
 ### フェードアウト
 
 パーティクルが消滅するときに、フェードアウトしつつ消滅するようにします。
+<iframe src='../../Effects/viewer_ja.html#References/Render/fade_in_out.efkefc'></iframe>
 
 ### UV
 
