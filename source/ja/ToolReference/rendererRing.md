@@ -24,10 +24,12 @@
 ### 配置方法
 
 スプライトをパーティクルに対してどのように配置するか指定します。 「ビルボード」の場合、スプライトは常に視点側を向きます。「Z軸回転ビルボード」の場合、Z軸の回転は固定しつつ視点側をむきます。 「Y軸固定」の場合、Y軸の回転は固定しつつ視点側をむきます。「固定」の場合、スプライトはパーティクルの回転に従います。
+<iframe src='../../Effects/viewer_ja.html#References/Render/render_ring.efkefc'></iframe>
 
 ### 頂点数
 
 表示する図形の角の数です。 角が多いほど円に近くなりますが、あえて少なくして多角形にすることもできます。
+<iframe src='../../Effects/viewer_ja.html#References/Render/render_ring_vertexcount.efkefc'></iframe>
 
 ### 表示角度
 
@@ -57,3 +59,4 @@
 
 円の内側の部分の色です。
 
+<iframe src='../../Effects/viewer_ja.html#References/Render/render_ring_outin.efkefc'></iframe>
