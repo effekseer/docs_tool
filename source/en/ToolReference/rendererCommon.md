@@ -17,6 +17,7 @@ Sets the color image or distortion image to be used for displaying the particle.
 ### Blend
 
 Specifies the method of alpha blending applied when displaying the particle. This controls how drawn images will be composited when they are on top of each other, such as translucency, addition, or subtraction.
+<iframe src='../../Effects/viewer_en.html#References/Render/blend.efkefc'></iframe>
 
 ### Filter
 

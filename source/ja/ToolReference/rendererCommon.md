@@ -17,6 +17,7 @@
 ### ブレンド
 
 パーティクルの表示に適用されるアルファブレンドの方法を指定します。半透明、加算、減算といった既に描画された画像に対する合成の方法を指定します。
+<iframe src='../../Effects/viewer_ja.html#References/Render/blend.efkefc'></iframe>
 
 ### フィルタ
 
