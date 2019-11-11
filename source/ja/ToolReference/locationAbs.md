@@ -18,6 +18,7 @@
 ### 重力
 
 ある方向に加速度をかけます。下とは限らず、上や右にも適用することができます。
+<iframe src='../../Effects/viewer_ja.html#References/Attraction_Forces/gravity.efkefc'></iframe>
 
 ### 引力
 

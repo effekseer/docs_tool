@@ -18,19 +18,18 @@
 #### 角度
 
 パーティクルの角度を指定します。
-
+<iframe src='../../Effects/viewer_ja.html#References/Rotation/rotation.efkefc'></iframe>
 #### 角度・速度・加速度
 
 パーティクルの角度・速度・加速度を指定します。
-<div align="center">
-<img src="../../img/Tutorial/04_rotate.gif">
-<p>回転</p>
-</div>
+<iframe src='../../Effects/viewer_ja.html#References/Rotation/rotation_pva.efkefc'></iframe>
 
 #### イージング
 
 パーティクルの生成時の角度と終了時の角度を指定します。
+<iframe src='../../Effects/viewer_ja.html#References/Rotation/rotation_easing.efkefc'></iframe>
 
 #### 角度(Fカーブ)
 
 Fカーブを使用します。
+<iframe src='../../Effects/viewer_ja.html#References/Rotation/rotation_f_curve.efkefc'></iframe>

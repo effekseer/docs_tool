@@ -17,7 +17,7 @@ No additional external forces will be applied to the particles.
 ### Gravity
 
 Apply acceleration in one direction. It can be applied not only to the bottom but also to the top and the right.
-
+<iframe src='../../Effects/viewer_en.html#References/Attraction_Forces/gravity.efkefc'></iframe>
 ### Attraction (if point is set)
 
 The particle moves towards the position specified under "Point of Attraction" in the "Behavior" window.
