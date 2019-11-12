@@ -17,18 +17,23 @@ Specify the position of the root node in the node tree.
 ### Speed
 
 Specify the movement speed of the root node in the node tree.
+<iframe src='../../Effects/viewer_en.html#References/Behavior/speed.efkefc'></iframe>
+
 
 ### Angle
 
 Specify the angle of the root node in the node tree.
+<iframe src='../../Effects/viewer_en.html#References/Behavior/angle.efkefc'></iframe>
 
 ### Angular Speed
 
 Specify the rotation speed of the root node in the node tree.
+<iframe src='../../Effects/viewer_en.html#References/Behavior/angular_speed.efkefc'></iframe>
 
 ### Scale
 
 Specify the scale of the root node in the node tee.
+<iframe src='../../Effects/viewer_en.html#References/Behavior/behavior_scale.efkefc'></iframe>
 
 ### Expansion Rate
 
@@ -53,6 +58,7 @@ Duplicates the effect in the Z direction this many times.
 ### Separation
 
 Specify the distance between effects when displaying duplicated effects.
+<iframe src='../../Effects/viewer_en.html#References/Behavior/count_set.efkefc'></iframe>
 
 ### Point of Attraction
 

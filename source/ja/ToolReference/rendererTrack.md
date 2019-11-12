@@ -89,3 +89,4 @@
 
 軌跡の右中間の色を指定します。
 
+<iframe src='../../Effects/viewer_ja.html#References/Render/render_track.efkefc'></iframe>

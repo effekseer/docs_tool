@@ -17,18 +17,22 @@
 ### 移動速度
 
 エフェクトのルートのパーティクルの移動速度を指定します。
+<iframe src='../../Effects/viewer_ja.html#References/Behavior/speed.efkefc'></iframe>
 
 ### 初期角度
 
 1フレーム目のエフェクトのルートのパーティクルの角度を指定します。
+<iframe src='../../Effects/viewer_ja.html#References/Behavior/angle.efkefc'></iframe>
 
 ### 回転速度
 
 エフェクトのルートのパーティクルの回転速度を指定します。
+<iframe src='../../Effects/viewer_ja.html#References/Behavior/angular_speed.efkefc'></iframe>
 
 ### 初期拡大率
 
 1フレーム目のエフェクトのルートのパーティクルの初期の拡大率を指定します。
+<iframe src='../../Effects/viewer_ja.html#References/Behavior/behavior_scale.efkefc'></iframe>
 
 ### 拡大速度
 
@@ -53,6 +57,7 @@
 ### 距離
 
 エフェクトを複数表示する時のエフェクト間の距離を指定します。
+<iframe src='../../Effects/viewer_ja.html#References/Behavior/count_set.efkefc'></iframe>
 
 ### ターゲット位置
 
