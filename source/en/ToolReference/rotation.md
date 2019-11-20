@@ -17,19 +17,19 @@ Specifies the spawn angle of the particle. This will influence the angle of the 
 #### Fixed Angle
 
 Specify the angle of the particle.
-<iframe src='../../Effects/viewer_en.html#References/Rotation/rotation.efkefc'></iframe>
+<iframe src='../../Effects/viewer_en.html#References/Rotation/rotation.efkefc' class='effect'></iframe>
 
 #### Position, Velocity, Acceleration (PVA)
 
 Specify the initial angle, rotational speed, and angular acceleration of the particle.
-<iframe src='../../Effects/viewer_en.html#References/Rotation/rotation_pva.efkefc'></iframe>
+<iframe src='../../Effects/viewer_en.html#References/Rotation/rotation_pva.efkefc' class='effect'></iframe>
 
 #### Easing
 
 Specify the initial angle for the particle, as well as the final angle for the particle at the end of its lifetime, and how to transition between the two.
-<iframe src='../../Effects/viewer_en.html#References/Rotation/rotation_easing.efkefc'></iframe>
+<iframe src='../../Effects/viewer_en.html#References/Rotation/rotation_easing.efkefc' class='effect'></iframe>
 
 #### F-Curve
 
 Use an F-curve to modify the rotational value over the lifetime of the particle.
-<iframe src='../../Effects/viewer_en.html#References/Rotation/rotation_f_curve.efkefc'></iframe>
+<iframe src='../../Effects/viewer_en.html#References/Rotation/rotation_f_curve.efkefc' class='effect'></iframe>

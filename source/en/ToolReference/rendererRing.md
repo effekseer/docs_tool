@@ -24,16 +24,20 @@ Specify the order in which particles are drawn among particles generated from th
 ### Configuration
 
 Specify how to draw the particle's sprite. In the case of "Billboard", the sprite always rotates to face the camera. In the case of "Rotated Billboard", the sprite rotates to face the camera while keeping the Z axis fixed. In the case of "Fixed Y-axis", the sprite rotates to face the camera while keeping the Y axis fixed. For "Fixed", the sprite will match the rotation setting of the particle.
-<iframe src='../../Effects/viewer_en.html#References/Render/render_ring.efkefc'></iframe>
+
+<iframe src='../../Effects/viewer_en.html#References/Render/render_ring.efkefc' class='effect'></iframe>
 
 ### Vertex Count
 
 The number of corner verticies that will be used to display the ring. The more corners there are, the closer it will be to a smooth circle. However, you can also use small numbers to reduce it to a polygon. For example, 3 vertices will make the ring a triangle, 4 will make it a diamond, 5 will make it a pentagon, etc.
-<iframe src='../../Effects/viewer_en.html#References/Render/render_ring_vertexcount.efkefc'></iframe>
+
+<iframe src='../../Effects/viewer_en.html#References/Render/render_ring_vertexcount.efkefc' class='effect'></iframe>
 
 ### Viewing Angle
 
 The default is 360 degrees, which will form a full circle. You can reduce this value to form a semicircle, or a fan shape.
+
+<iframe src='../../Effects/viewer_en.html#References/Render/render_ring_viewingangle.efkefc' class='effect'></iframe>
 
 ### Outer
 

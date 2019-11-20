@@ -18,20 +18,20 @@
 #### 拡大
 
 パーティクルの拡大率を指定します。
-<iframe src='../../Effects/viewer_ja.html#References/Scale/scale.efkefc'></iframe>
+<iframe src='../../Effects/viewer_ja.html#References/Scale/scale.efkefc' class='effect'></iframe>
 
 #### 角度・速度・加速度
 
 パーティクルの拡大率・速度・加速度を指定します。
-<iframe src='../../Effects/viewer_ja.html#References/Scale/scale_pva.efkefc'></iframe>
+<iframe src='../../Effects/viewer_ja.html#References/Scale/scale_pva.efkefc' class='effect'></iframe>
 
 #### イージング
 
 パーティクルの生成時の拡大率と終了時の拡大率を指定します。
-<iframe src='../../Effects/viewer_ja.html#References/Scale/scale_easing.efkefc'></iframe>
+<iframe src='../../Effects/viewer_ja.html#References/Scale/scale_easing.efkefc' class='effect'></iframe>
 
 #### 拡大率(Fカーブ)
 
 Fカーブを使用します。
-<iframe src='../../Effects/viewer_ja.html#References/Scale/scale_f_curve.efkefc'></iframe>
+<iframe src='../../Effects/viewer_ja.html#References/Scale/scale_f_curve.efkefc' class='effect'></iframe>
 

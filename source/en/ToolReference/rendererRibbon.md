@@ -16,11 +16,11 @@ The ribbon is not drawn for each individual particle. Rather, it connects all ch
 <p>"Render Settings" window</p>
 </div>
 
+<iframe src='../../Effects/viewer_en.html#References/Render/ribbon_render.efkefc' class='effect'></iframe>
 
 ### Rendering Order
 
 Specify the order in which particles are drawn among particles generated from the same node. For "Order of spawn", the first generated particle is the first drawn, while in "Reversed", the first generated particle will be drawn last. That is, in the order of generation, the drawing of the last generated particle is given priority over the first generated particle.
-<iframe src='../../Effects/viewer_en.html#References/Render/ribbon_render.efkefc'></iframe>
 
 ### Configuration
 
