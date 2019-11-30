@@ -17,10 +17,6 @@
 <p>「描画」ウインドウ</p>
 </div>
 
-### 形状
-円の形状の設定を変更できます。三日月型を設定すると一部が切れた円を設定できます。円の開始終了角度及びフェード角度を設定できます。
-
-
 ### 描画順
 
 同じノードから発生するスプライト間でもどのスプライトから順番に描画するか指定します。 生成順の場合、最初に生成されたのが後ろの方に、生成順の逆の場合、最初に生成されたのが前に描画されます。
@@ -37,9 +33,9 @@
 
 <iframe src='../../Effects/viewer_ja.html#References/Render/render_ring_vertexcount.efkefc' class='effect'></iframe>
 
-### 表示角度
+### 形状
 
-デフォルトは360度で円です。 この値を減らして半円、扇形にすることができます。
+円の形状を設定できます。三日月型を設定すると一部が切れた円を設定できます。円の開始終了角度及びフェード角度を設定できます。
 
 <iframe src='../../Effects/viewer_en.html#References/Render/render_ring_viewingangle.efkefc' class='effect'></iframe>
 

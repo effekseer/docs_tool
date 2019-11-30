@@ -16,7 +16,13 @@ The track is drawn by connecting a thick line between all the children of a cert
 <p>"Render Settings" window</p>
 </div>
 
-### The number of spline division (1.4 or later)
+### UV Type
+
+It sets the UV repeat pattern.
+It specifies whether to use the entire UV for the entire track or repeat the UV depending on the length.
+It can also specify not to repeat only the edges. It is suitable for expressions with repeated patterns such as chains.
+
+### The number of spline division
 
 This parameter makes the shape smooth by dividing the track finely. It looks beautiful, although processing becomes heavier.
 

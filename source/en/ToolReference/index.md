@@ -67,7 +67,9 @@ Left-click and drag a color field to copy the value to another color field.
 
 ### File Format
 
-There are two unique file formats for this tool. The first one is ".efkproj", which is a source effect file edited with the Effekseer tool. The second is ".efk", a compiled effect file to be played at runtime in a game. The ".efk" file can be exported from "File -> output" within the Effekseer editor.
+An effect is saved in a file with "efkefc" format.
+This file can be editted and played with a runtime in a game.
+Until 1.4 there were efkproj and efk, but now efkproj and efk are read-only.
 
 ## Each window
 
