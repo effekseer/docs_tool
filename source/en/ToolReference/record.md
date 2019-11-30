@@ -86,7 +86,30 @@ There are 4 options: "Export as a single image", "Export images", "Export as a g
 
 ### Options
 
-#### Make transparent
+### Make transparent
 
-If not checked, the background will be black; otherwise, the background will be transparent in the output. Transparency applies even for AVI files, but not for gif animations.
+It specifies how to handle the background except gif animation.
 
+#### None
+
+It specifies black color to the background.
+
+#### Original image
+
+It specifies transparent to the background.
+If images with a black background are used with additive, it sometimes generates wrong image.
+
+#### Generate alpha
+
+It generates alpha channel automatically.
+If images with dark color are used with blend, it sometimes generates wrong image.
+
+#### Generate alpha(Blend+Add)
+
+By outputting the recorded results separately from blend and addition, 
+the color when the background is changed can be reproduced in the possible range.
+It can also record blend and additive effects.
+
+### Setting save destination
+
+It can specify whether to save the recording settings to the application or the project.

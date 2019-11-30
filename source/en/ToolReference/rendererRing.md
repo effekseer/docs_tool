@@ -16,7 +16,6 @@ The ring consists of a triple structure of outside, center and inside.
 <p>"Render Settings" window</p>
 </div>
 
-
 ### Rendering Order
 
 Specify the order in which particles are drawn among particles generated from the same node. For "Order of spawn", the first generated particle is the first drawn, while in "Reversed", the first generated particle will be drawn last. That is, in the order of generation, the drawing of the last generated particle is given priority over the first generated particle.
@@ -33,9 +32,9 @@ The number of corner verticies that will be used to display the ring. The more c
 
 <iframe src='../../Effects/viewer_en.html#References/Render/render_ring_vertexcount.efkefc' class='effect'></iframe>
 
-### Viewing Angle
+### Shape
 
-The default is 360 degrees, which will form a full circle. You can reduce this value to form a semicircle, or a fan shape.
+It can specify the shape of the circle. If it sprcifies the crescent moon type, it can set a circle with a part cut. It can set the start / end angle and fade angle of the circle.
 
 <iframe src='../../Effects/viewer_en.html#References/Render/render_ring_viewingangle.efkefc' class='effect'></iframe>
 

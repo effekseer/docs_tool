@@ -22,11 +22,17 @@ The ribbon is not drawn for each individual particle. Rather, it connects all ch
 
 Specify the order in which particles are drawn among particles generated from the same node. For "Order of spawn", the first generated particle is the first drawn, while in "Reversed", the first generated particle will be drawn last. That is, in the order of generation, the drawing of the last generated particle is given priority over the first generated particle.
 
+### UV Type
+
+It sets the UV repeat pattern.
+It specifies whether to use the entire UV for the entire ribbon or repeat the UV depending on the length.
+It can also specify not to repeat only the edges. It is suitable for expressions with repeated patterns such as chains.
+
 ### Configuration
 
 The shape of the ribbon is a thick line connecting the (-0.5, 0, 0) and (0.5, 0, 0) points centered on each particle. Normally, the direction of the line connecting the two points will depend on the rotation of the particle (for "Fixed"), but these options specify whether to automatically rotate the ribbon toward the camera.
 
-### The number of spline division (1.4 or later)
+### The number of spline division
 
 This parameter makes the shape smooth by dividing the ribbon finely. It looks beautiful, although processing becomes heavier.
 
