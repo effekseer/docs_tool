@@ -24,13 +24,11 @@ Specify FBX (.fbx), metasequoia file (.mqo) used for display, or model file for 
 
 You can also load FBX (.fbx) with animation. The first animation in the FBX file is played.
 
-### Normal Map
+### Configuration
 
-Specify the normal image to be used for the 3D model.
+Specify how to draw the particle's model. In the case of "Billboard", the sprite always rotates to face the camera. In the case of "Rotated Billboard", the model rotates to face the camera while keeping the Z axis fixed. In the case of "Fixed Y-axis", the sprite rotates to face the camera while keeping the Y axis fixed. For "Fixed", the model will match the rotation setting of the particle.
 
-### Lighting
-
-Specifies whether the model is affected by the light source.
+<iframe src='../../Effects/viewer_en.html#References/Render/model_configuration.efkefc'></iframe>
 
 ### Culling
 

@@ -427,6 +427,14 @@ Bloom and tone mapping can now be specified in the editor.
 This is for checking the behavior of the effect because it is applied only to the appearance of the editor.
 Background and lighting have been moved to the environment because of the frequency of changes.
 
+#### Sprite, ring, model
+
+(Breaking change) The direction of rotation of ```Rotated billboard``` has been reversed.
+
+#### Track
+
+(Breaking change) The track has been flipped.
+
 #### Ring
 
 It changed ```viewing angle``` setting to a ring shape setting.
@@ -470,6 +478,8 @@ You can now specify near-far clips.
 #### Misc
 
 Added support for reading FBX without bone or FBX without animation and with bone.
+
+Added a playbackspeed in Behavior
 
 (Breaking change) 
 Fixed a bug that random numbers overflowed. The random behavior may change.

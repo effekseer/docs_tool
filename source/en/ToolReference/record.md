@@ -54,7 +54,9 @@ There are 4 options: "Export as a single image", "Export images", "Export as a g
 
 "Export images" outputs frames as individual files with numbers attached to each filename.
 
-"Export as a gif animation" and "Export as a AVI" will output the captured effect to an uncompressed animation file.
+"Export as a gif animation" outputs the captured effect to a gif file.
+
+"Export as a AVI" outputs the captured effect to an uncompressed animation file.
 
 <table>
 
@@ -94,21 +96,57 @@ It specifies how to handle the background except gif animation.
 
 It specifies black color to the background.
 
+```eval_rst
+.. image:: ../../img/Reference/Recording/none.png
+   :align: center
+```
+
 #### Original image
 
 It specifies transparent to the background.
 If images with a black background are used with additive, it sometimes generates wrong image.
+
+```eval_rst
+.. image:: ../../img/Reference/Recording/original.png
+   :align: center
+```
 
 #### Generate alpha
 
 It generates alpha channel automatically.
 If images with dark color are used with blend, it sometimes generates wrong image.
 
+```eval_rst
+.. image:: ../../img/Reference/Recording/generate.png
+   :align: center
+```
+
 #### Generate alpha(Blend+Add)
 
 By outputting the recorded results separately from blend and addition, 
 the color when the background is changed can be reproduced in the possible range.
-It can also record blend and additive effects.
+It can also record an effect which contains blend and additive particles.
+
+```eval_rst
+.. image:: ../../img/Reference/Recording/generate_blend_add.png
+   :align: center
+```
+
+When using, draw the added image by addition after drawing the blended image by blending, 
+
+```eval_rst
+.. image:: ../../img/Reference/Recording/blend_add_desc.png
+   :align: center
+```
+
+#### Comparison of methods
+
+From left to right, None, Original image, Generate alpha, Generate alpha(Blend+Add) images are displayed.
+
+```eval_rst
+.. image:: ../../img/Reference/Recording/compare.png
+   :align: center
+```
 
 ### Setting save destination
 

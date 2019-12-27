@@ -98,6 +98,7 @@ Until 1.4 there were efkproj and efk, but now efkproj and efk are read-only.
     record
     fileviewer
     global
+    environment
     options
     depth
 ```

@@ -54,18 +54,9 @@ This is a parameter that reproduces the effect of changing the FPS in your exter
 
 This is a parameter that reproduces the effect of changing the coordinate system in your external tool or game engine. When this parameter is set, the coordinate system is changed and displayed.
 
-### Background Color
-
-Specify the color of the background.
-
-### Background image
-
-Specify an image for the background.
-
 ### Color Space
 
 This is a parameter that reproduces the appearance if you were to change the color space and play the effect in your external tool or game engine. There are gamma space and linear space options for the color space.
-
 
 #### Gamma space
 ![](../../img/Reference/colorSpace_GammaSpace.png)
@@ -90,3 +81,11 @@ Specify the slide direction of the mouse.
 ### Mouse Panning (Y)
 
 Specify the slide direction of the mouse.
+
+### Font
+
+Specify a kind of fonts.
+
+### Font size
+
+Specify the size of font.

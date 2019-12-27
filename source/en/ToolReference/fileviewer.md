@@ -2,7 +2,7 @@
 
 ## Overview
 
-The file viewer is a function to display a list of files in the directory where the project file (.efkproj) exists.
+The file viewer displays a list of files in the directory where contains Effekseer related files.
 
 ![](../../img/Reference/fileviewer_en.png)
 
