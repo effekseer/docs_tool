@@ -351,21 +351,22 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 #### Material
 
 Material functionality has been added.
-You can now implement own materials with nodes.
+You can now create and use your own materials with nodes.
 
-Parameters about distortion were removed from Basic Render Settings and parameters about lighting were removed from Render Settings of model.
+Distortion Parameters were removed from Basic Render Settings.
+Lighting Parameters were removed from model Render Settings.
 Instead of these, parameters are reorganized.
 
 Standard, distortion, and lighting materials have been added in Basic Render Settings.
 
-Sampler can now be specified independently of color.
+You can now specify a sampler for distorting texture independently of color.
 
 Lighting is now supported for non-models.
 
-You can now select an image to use for UV calculation. Also, UV can be specified with a value based on 128x128 without an image.
+You can now select an image to use for UV calculation. UV can also be specified without an image.
 
 (Breaking change) 
-Due to a bug, the distortion did not behave as the reference corrected.
+Due to a bug, the distortion did not behave as the reference correctly.
 The specifications is the same as the previous version if the colors of the vertices are swapped between red and green except for sprites.
 The specifications is the same as the previous version if it makes the color of red twice for sprites.
 
@@ -376,7 +377,7 @@ Therefore, the distortion on the screen remains unchanged when the effect occupi
 
 (Breaking change) 
 Due to non-model lighting, billboard behavior has been partially changed. 
-Models with fixed and rings that extend in the depth direction are particularly affected.
+Models with fixed settings and rings that extend in the depth direction are particularly affected.
 The specifications is the same as the previous version if you reverse the front and back.
 
 (Breaking change) 
@@ -388,7 +389,7 @@ Fixed a bug that sprites are not ordered even if the drawing order was reversed.
 
 #### Dynamic Parameter
 
-A function has been added to rewrite effect parameters during playback in the application.
+A function has been added to rewrite effect parameters during playback.
 
 #### New format
 
@@ -396,7 +397,7 @@ efkproj and efk have been combined into efkefc. It is no longer necessary to out
 
 #### Recording
 
-Tthe color when the background is changed can be reproduced as much as possible by separating the recorded result into normal and additive.
+The color when the background is changed can be reproduced as much as possible by separating the recorded result into normal and additive.
 
 You can now specify whether to save recording settings in the application or project. Effects can now have recording settings.
 
