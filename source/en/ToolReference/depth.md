@@ -162,6 +162,15 @@ This picture is an example of a drawing order. (1) is parent node of (2) and a d
 
 <img src="../../img/Reference/depth_drawingPriority.png"/>
 
+### Suppression of scaling by depth
+
+Makes particles appear approximately the same size, independent of the distance between particles and the camera.
+It is suitable for a lock-on marker.
+
+You can also suppress the effect of distance.
+
+<iframe src='../../Effects/viewer_en.html#References/Depth/suppression_of_scaling_by_depth.efkefc'></iframe>
+
 ### Soft particle
 
-It is a parameter for a specific game engine. It is not reflected in Effekseer in version 1.4.
+It is a parameter for a specific game engine. It is not reflected in Effekseer in version 1.5.

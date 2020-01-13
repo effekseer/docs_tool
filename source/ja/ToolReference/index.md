@@ -98,6 +98,7 @@
     record
     fileviewer
     global
+    environment
     options
     depth
 ```

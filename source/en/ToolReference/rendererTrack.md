@@ -19,8 +19,19 @@ The track is drawn by connecting a thick line between all the children of a cert
 ### UV Type
 
 It sets the UV repeat pattern.
-It specifies whether to use the entire UV for the entire track or repeat the UV depending on the length.
-It can also specify not to repeat only the edges. It is suitable for expressions with repeated patterns such as chains.
+
+#### Strech
+
+It uses one image for the entire track. It is suitable for particles with a long length, such as a laser.
+
+<iframe src='../../Effects/viewer_en.html#References/Render/track_uvtype_strech.efkefc' class='effect'></iframe>
+
+#### Tile
+
+It repeats one image within one track. It is suitable for particles with repeating patterns, such as chains.
+It can also specify not to repeat only the edges.
+
+<iframe src='../../Effects/viewer_en.html#References/Render/track_uvtype_tile.efkefc' class='effect'></iframe>
 
 ### The number of spline division
 

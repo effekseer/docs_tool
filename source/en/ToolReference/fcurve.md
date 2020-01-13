@@ -68,6 +68,8 @@ You can select by left clicking the mouse.
 
 After selecting the key, you can move it by moving the mouse while holding down the left mouse button. In the same way, you can also move the handles that control the curves.
 
+You can also move multiple keys holding Alt.
+
 ### Enlarge, shrink anchor
 
 You can specify a position of an anchor automatically by selecting the key and pressing enlarge anchor or chrink anchor buttons. Pressing enlarge anchor expands the anchor and smoothes the line. Pressing shrink anchor merges positions between key and anchors and makes a F-Curve sharp.

@@ -10,6 +10,85 @@ This section explains about the "Basic Render Settings" window, which provides c
 <p>"Basic Render Settings" window</p>
 </div>
 
+### Material
+
+Specifies the material used to draw the particles.
+You can make settings such as being lighten or distorting the background.
+
+#### Default
+
+The image in the color image is displayed.
+
+<iframe src='../../Effects/viewer_en.html#References/BasicRender/render_unlit.efkefc'></iframe>
+
+#### Lighting
+
+Particles are lightened.
+In addition to color images, you can specify normal images.
+If you specify a normal image,  the orientation of the surface is changed.
+
+<iframe src='../../Effects/viewer_en.html#References/BasicRender/render_lit.efkefc'></iframe>
+
+#### Distortion(Back)
+
+If the distortion setting is enabled, the particles will distort anything behind it. The way the distortion is applied depends on the pixel data of the distorted image, and the distortion intensity.
+
+In the color of the distortion image, red and green channels are used as distortion information. Both of them do not distort at all when the value is 127\. When red is 127 or more, it is distorted to the right, and when it is less than 127 it distorts to the left. When green is 127 or more, distortion is in the upward direction and distortion is in the downward direction when the green is less than 127\. However, this up / down / left / right direction depends on the drawing method. For example, in the case of a sprite, the top, bottom, left, and right directions are those perpindicular to the sides of the image's rectangle.
+
+The color of each drawing weakens the strength of distortion. Values range between 0 and 255\. Red affects left and right, and green affects up and down.
+
+Distortion strength adjusts the strength of all colors. When it reaches 0, no more distortion will be applied.
+
+<table>
+
+<tbody>
+
+<tr>
+
+<td>
+
+With distortion
+
+</td>
+
+<td>
+
+No distortion
+
+</td>
+
+</tr>
+
+<tr>
+
+<td><img src="../../img/Reference/renderCommon_distortion_on.gif"/></td>
+
+<td><img src="../../img/Reference/renderCommon_distortion_off.gif"/></td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+In the case of the default settings, the distortion distorts only the background without own effect itself. To distort other nodes of own effect with distortion, specify the drawing priority from the depth panel. Nodes with drawing priority less than 0 are distorted with the background due to the distortion of the node of own effect.
+
+#### File
+
+You can use a user-created material file for drawing particles.
+The widest range of expressions can be achieved.
+
+Press the button to create and edit material files.
+
+See Materials (in writing) for details.
+
+More parameters may be emerging depends on the material file.
+In addition to constants, custom parameters can be specified by easing or F-curve.
+The displayed name of the custom parameter depends on the material file.
+
+<iframe src='../../Effects/viewer_ja.html#References/BasicRender/render_file.efkefc'></iframe>
+
+
 ### Texture (color/distortion)
 
 Sets the color image or distortion image to be used for displaying the particle. As the name suggests, for the color image, the image/pattern/etc will displayed almost exactly as it appears in the source. In most cases, you will use color images. As for the distorted image, we will explain this further below in the distortion section.
@@ -108,54 +187,3 @@ Always
 
 </table>
 
-### Distortion
-
-This is explained in the distortion section below.
-
-### Distortion Intensity
-
-This is explained in the distortion section below.
-
-## About Distortion
-
-If the distortion setting is enabled, the particles will distort anything behind it. The way the distortion is applied depends on the pixel data of the distorted image, and the distortion intensity.
-
-In the color of the distortion image, red and green channels are used as distortion information. Both of them do not distort at all when the value is 127\. When red is 127 or more, it is distorted to the right, and when it is less than 127 it distorts to the left. When green is 127 or more, distortion is in the upward direction and distortion is in the downward direction when the green is less than 127\. However, this up / down / left / right direction depends on the drawing method. For example, in the case of a sprite, the top, bottom, left, and right directions are those perpindicular to the sides of the image's rectangle.
-
-The color of each drawing weakens the strength of distortion. Values range between 0 and 255\. Red affects left and right, and green affects up and down.
-
-Distortion strength adjusts the strength of all colors. When it reaches 0, no more distortion will be applied.
-
-<table>
-
-<tbody>
-
-<tr>
-
-<td>
-
-With distortion
-
-</td>
-
-<td>
-
-No distortion
-
-</td>
-
-</tr>
-
-<tr>
-
-<td><img src="../../img/Reference/renderCommon_distortion_on.gif"/></td>
-
-<td><img src="../../img/Reference/renderCommon_distortion_off.gif"/></td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-In the case of the default settings, the distortion distorts only the background without own effect itself. To distort other nodes of own effect with distortion, specify the drawing priority from the depth panel. Nodes with drawing priority less than 0 are distorted with the background due to the distortion of the node of own effect.

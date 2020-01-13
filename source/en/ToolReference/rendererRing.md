@@ -22,9 +22,9 @@ Specify the order in which particles are drawn among particles generated from th
 
 ### Configuration
 
-Specify how to draw the particle's sprite. In the case of "Billboard", the sprite always rotates to face the camera. In the case of "Rotated Billboard", the sprite rotates to face the camera while keeping the Z axis fixed. In the case of "Fixed Y-axis", the sprite rotates to face the camera while keeping the Y axis fixed. For "Fixed", the sprite will match the rotation setting of the particle.
+Specify how to draw the particle's ring. In the case of "Billboard", the ring always rotates to face the camera. In the case of "Rotated Billboard", the ring rotates to face the camera while keeping the Z axis fixed. In the case of "Fixed Y-axis", the ring rotates to face the camera while keeping the Y axis fixed. For "Fixed", the ring will match the rotation setting of the particle.
 
-<iframe src='../../Effects/viewer_en.html#References/Render/render_ring.efkefc' class='effect'></iframe>
+<iframe src='../../Effects/viewer_en.html#References/Render/ring_configuration.efkefc' class='effect'></iframe>
 
 ### Vertex Count
 
@@ -34,7 +34,15 @@ The number of corner verticies that will be used to display the ring. The more c
 
 ### Shape
 
-It can specify the shape of the circle. If it sprcifies the crescent moon type, it can set a circle with a part cut. It can set the start / end angle and fade angle of the circle.
+It can specify the shape of the ring. 
+
+#### Donut
+
+It can draw a shape like a donut
+
+#### Crescent
+
+It can draw a circle with a part cut. It can set the start / end angle and fade angle of the circle.
 
 <iframe src='../../Effects/viewer_en.html#References/Render/render_ring_viewingangle.efkefc' class='effect'></iframe>
 

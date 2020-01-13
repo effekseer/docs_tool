@@ -20,7 +20,7 @@ Specifies the spawn scale of the particle. This will influence the scale of the 
 Specify the scale of the particle.
 <iframe src='../../Effects/viewer_en.html#References/Scale/scale.efkefc' class='effect'></iframe>
 
-#### Position, Velocity, Acceleration (PVA)
+#### Scale, Velocity, Acceleration (PVA)
 
 Specify the initial scale, expansion velocity, and expansion acceleration of the particle.
 <iframe src='../../Effects/viewer_en.html#References/Scale/scale_pva.efkefc' class='effect'></iframe>
