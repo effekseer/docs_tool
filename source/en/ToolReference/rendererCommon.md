@@ -88,11 +88,6 @@ The displayed name of the custom parameter depends on the material file.
 
 <iframe src='../../Effects/viewer_ja.html#References/BasicRender/render_file.efkefc'></iframe>
 
-
-### Texture (color/distortion)
-
-Sets the color image or distortion image to be used for displaying the particle. As the name suggests, for the color image, the image/pattern/etc will displayed almost exactly as it appears in the source. In most cases, you will use color images. As for the distorted image, we will explain this further below in the distortion section.
-
 ### Blend
 
 Specifies the method of alpha blending applied when displaying the particle. This controls how drawn images will be composited when they are on top of each other, such as translucency, addition, or subtraction.
@@ -121,7 +116,9 @@ When a particle is about to be despawned, it fades out over a duration and disap
 
 ### UV
 
-In the color/distortion image, this specifies the region of the image actually used when displaying the particle. The range used can be changed over time, allowing you to scroll or animate the image. The units used in these parameters for specifying the area are pixels.
+In an image, this specifies the region of the image actually used when displaying the particle. 
+The region can be changed over time, allowing you to scroll or animate the image. 
+The units used in these parameters for specifying the area are pixels.
 
 #### Animation
 
@@ -142,6 +139,16 @@ Move the UV range at a constant speed.
 Use the F-Curve window to control the UV by defining automation curves.
 
 ![](../../img/Reference/renderCommon_uv_scroll.png)
+
+### Referenced(UV)
+
+Multiple images with different sizes may be used for one particle.
+In that case, you can specify an image that specifies the region.
+You can also specify the UV based on 128x128 without specifying the image.
+
+When using a material, the number of ```Referenced``` matches the material a priority of image.
+
+![](../../img/Reference/uv_referenced.png)
 
 ### Inherit color
 
