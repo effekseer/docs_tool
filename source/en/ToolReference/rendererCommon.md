@@ -143,12 +143,12 @@ Use the F-Curve window to control the UV by defining automation curves.
 ### Referenced(UV)
 
 Multiple images with different sizes may be used for one particle.
-In that case, you can specify an image that specifies the region.
+In that case, you can specify a resolution used as the basis of the ratio with an image.
 You can also specify the UV based on 128x128 without specifying the image.
 
 When using a material, the number of ```Referenced``` matches the material a priority of image.
 
-![](../../img/Reference/uv_referenced.png)
+![](../../img/Reference/BasicRender/uv_referenced.png)
 
 ### Inherit color
 

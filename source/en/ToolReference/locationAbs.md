@@ -1,14 +1,32 @@
-﻿# Attraction Forces
+﻿# Force Field (Local)
 
 ## Overview
 
-Set parameters that control forces applied to particles that are independent of the position and angle of the parent particle. These parameters move the particles after the parent particle and child particle position changes have been applied.
+It specifies an effect that gives power from outside the particles.
 
 ## Parameters
 <div align="center">
 <img src="../../img/Reference/Atraction/panel_en.png">
-<p>"Attraction Forces" window</p>
+<p>"Force Field (Local)" window</p>
 </div>
+
+## Force Field
+
+It can specifies up to three types of force fields.
+
+### None
+
+No additional external forces will be applied to the particles.
+
+### Turbulence
+
+It gives power with a turburence.
+
+## Force Field(1.4)
+
+These are implemented before version 1.4.
+
+Set parameters that control forces applied to particles that are independent of the position and angle of the parent particle. These parameters move the particles after the parent particle and child particle position changes have been applied.
 
 ### None
 
