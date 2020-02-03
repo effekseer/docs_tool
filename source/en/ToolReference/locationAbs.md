@@ -22,6 +22,24 @@ No additional external forces will be applied to the particles.
 
 It gives power with a turburence.
 
+<iframe src='../../Effects/viewer_en.html#References/Attraction_Forces/turbulence.efkefc'></iframe>
+
+#### Random Seed
+
+The flow of turbulence changes according to the value.
+
+#### Field scale
+
+Larger value ​​increases the turbulence width.
+
+#### Strength
+
+The strength of turbulence on particles.
+
+#### Complexity
+
+Larger value ​​complicates turbulence. However, processing becomes heavy.
+
 ## Force Field(1.4)
 
 These are implemented before version 1.4.
@@ -36,6 +54,7 @@ No additional external forces will be applied to the particles.
 
 Apply acceleration in one direction. It can be applied not only to the bottom but also to the top and the right.
 <iframe src='../../Effects/viewer_en.html#References/Attraction_Forces/gravity.efkefc'></iframe>
+
 ### Attraction (if point is set)
 
 The particle moves towards the position specified under "Point of Attraction" in the "Behavior" window.
