@@ -13,13 +13,21 @@ Effekseerでは専用のツール（マテリアルエディタ）でEffekseer�
 マテリアルエディタではノードを使用して計算式を記述できます。
 その計算の結果がパーティクルとして表示されます。
 
-TODO：図
+.. image:: ../../img/Reference/Material/example_material_effect.png
+   :scale: 80%
+   :align: center
+
+.. image:: ../../img/Reference/Material/example_material_node.png
+   :scale: 80%
+   :align: center
 
 マウスの左のドラッグでノードの入力と出力を接続できます。
 
-右クリックで表示されるメニューから新規のノードに接続できます。
+右クリックで表示されるメニューから新規のノードを作成できます。
 
-TODO:図
+.. image:: ../../img/Reference/Material/node_menu_ja.png
+   :scale: 80%
+   :align: center
 
 最も簡単な構成は、定数3と出力の2つのノードです。
 
@@ -30,7 +38,9 @@ TODO:図
 
 そうすると、パーティクルに定数3の値が表示されます。
 
-TODO : 図
+.. image:: ../../img/Reference/Material/basic_ja.png
+   :scale: 80%
+   :align: center
 
 詳細な操作方法
 ========================
