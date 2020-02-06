@@ -15,11 +15,11 @@ The result of the calculation is drawn as particles.
 
 
 
-.. image:: ../../img/Reference/Material/example_material_effect.png
+.. image:: ../../img/Reference/Material/material_sample_effect.png
    :scale: 80%
    :align: center
 
-.. image:: ../../img/Reference/Material/example_material_node.png
+.. image:: ../../img/Reference/Material/material_sample_node.png
    :scale: 80%
    :align: center
 
@@ -28,7 +28,7 @@ You can connect the input and output of the node with the left mouse drag.
 
 You can create a new node from the right-click menu.
 
-.. image:: ../../img/Reference/Material/node_menu_ja.png
+.. image:: ../../img/Reference/Material/menu_create_node_en.png
    :scale: 80%
    :align: center
 
@@ -41,7 +41,7 @@ You connect the output Emissive input pin and the Constant3 output pin.
 
 Then, the value of Constant3 is displayed on the particle.
 
-.. image:: ../../img/Reference/Material/basic_ja.png
+.. image:: ../../img/Reference/Material/basic_en.png
    :scale: 80%
    :align: center
 
@@ -59,7 +59,9 @@ Search node
 If you enter a keyword in the menu with right-click, only the nodes that contain that keyword are displayed.
 Keyword is shown by mouse over.
 
-TODO : 図
+.. image:: ../../img/Reference/Material/menu_create_node_search_ja
+   :scale: 80%
+   :align: center
 
 Delete line or node
 ------------------------
@@ -113,9 +115,9 @@ Output
 
 You can specify the final output value.
 
-In the output, you can set the type of lighting.
+In the output, you can spefiy the type of lighting.
 
-Currently, there are Lit and Unlit lighting.
+There are Lit and Unlit lighting.
 If you specify Lit, it will be affected by the light source.
 If you specify Unlit, the entered value is displayed.
 
@@ -124,52 +126,52 @@ TODO : 画像
 BaseColor (Number3)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Valid only for Lit. Enter the color of the material.
+Valid only for Lit. Input the color of the material.
 
 Emissive (Number3)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Enter the emission color of the material.
-For Unlit, enter the color to display.
+Input the emission color of the material.
+For Unlit, input the color to display.
 
 Opacity (Number1)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Enter the transparency.
+Input the transparency.
 
 OpacityMask (Number1)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Enter the mask. If it is less than 0, it will not be displayed at all.
+Input the mask. If it is less than 0, it is not displayed at all.
 
 Roughness (Number1)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Valid only for Lit. Enter the surface roughness.
+Valid only for Lit. Input the surface roughness.
 
 Normal (Number3)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Valid only for Lit. Enter the direction of the normal.
+Valid only for Lit. Input the direction of the normal.
 
 AmbientOcclusion
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Valid only for Lit. Enter a value to darken the lighting.
-Set to 0 to make it black.
+Valid only for Lit. Input the value to darken the lighting.
+Specify 0 to make it black.
 
 WorldPositionOffset (Number3)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Enter the moving distance of the vertex.
-The vertex position moves by the entered value.
+Input the moving distance of the vertex.
+The vertex position moves by the input value.
 
 Refraction (Number1)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Enter the refractive index. If the refractive index is 1, it will not be refracted.
-If the refractive index does not appear, enter the background by refracting it.
-Enter a value of 1 or more.
+Input the refractive index. If the refractive index is 1, it is not be refracted.
+If the refractive index is not 1, it show the refracted background.
+Input larger value than 1.
 
 Comment (Comment)
 ------------------------
@@ -187,8 +189,9 @@ Comments for clarity. Does not affect operation.
 Details of calculation behavior
 ========================
 
-If V1 and V2 have inputs, you can enter the same type of value or the number 1 for V2.
-If V1 and V2 are of the same type, the result calculated for each element is output.
+If V1 and V2 have inputs, you can enter the same type of value or the Number 1 for V1 or V2.
+If V1 and V2 are of the same type, the result with the type is output.
 
 If V1 is the numerical value 1, it outputs each element of V2 and the result of calculating V1.
-If V2 is the number 1, the result of calculating each element of V1 and V2 is output.
+If V2 is the numerical value 1, it outputs each element of V1 and the result of calculating V2.
+
