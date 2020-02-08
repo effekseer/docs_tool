@@ -1,44 +1,44 @@
 ﻿=====================
-マテリアルノード(定数)
+Material Node(Constant)
 =====================
 
-概要
+Overview
 ========
 
-ノード一覧
+Node list
 ========
 
 
 
-定数1、2、3、4 (Constant1,2,3,4)
+Constant1,2,3,4
 ------------------------------------------------
 
-プロパティに指定された値を出力します。
+Outputs the value specified in the property.
 
-パラメーター1、2、3、4 (Parameter1,2,3,4)
+Parameter1,2,3,4
 ------------------------------------------------
 
-外部から設定されたパラメーターを出力します。
-このパラメーターはノード単位で共通です。
-パラメーターに設定された概要と詳細はEffekseerや外部のツールに表示されます。
+Outputs externally specified parameters.
+This parameter is common for each node.
+The summary and details specified in the parameters are displayed in Effekseer and external tools.
 
 TODO:図
 
-カスタムデータ1、2 (CustomData1、CustomData2)
+CustomData1, CustomData2
 ------------------------------------------------
 
-外部から設定されたパラメーターを出力します。
-このパラメーターはパーティクルごとに異なる値を設定できます。
-パラメーターに設定された概要と詳細はEffekseerや外部のツールに表示されます。
+Outputs externally specified parameters.
+This parameter can be set differently for each particle.
+The summary and details specified in the parameters are displayed in Effekseer and external tools.
 
 TODO:図
 
-時間 (Time)
+Time
 ------------------------
 
-現在の時間を秒単位で出力します。
+Outputs the current time in seconds.
 
-カメラ位置 (CameraPositionWS)
+CameraPosition
 ------------------------
 
-カメラの位置を出力します。
+Outputs the camera position.

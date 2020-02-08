@@ -1,49 +1,50 @@
 ﻿=====================
-マテリアルノード(モデル)
+Material Node (Model)
 =====================
 
-概要
+Overview
 ========
 
-ノード一覧
+Node list
 ========
 
-頂点座標 (WorldPosition)
+VertexPosition
 --------------------------------
 
-パーティクルの頂点の座標を出力します。
+Outputs the positions of particle vertices.
 
-UV座標 (TextureCoordinate)
+UV
 --------------------------------
 
-パーティクルのUV座標を出力します。
-UV番号を切り替えることで、Effekseer本体のUVのパラメーターで変更される前のUVを使用できます。
+Outputs UV coordinates of particles.
+By switching the UV number, you can use the UV before it is changed by the UV parameter of the Effekseer.
 
-移動UV座標 (Panner)
+MovingUV
 --------------------------------
 
-パーティクルのUV座標を時間に応じて移動させて出力します。
-UV座標、時間、移動速度を入力することができます。
-入力が接続されてない場合、プロパティの値を使用します。
+Moves the UV coordinates of particles according to time and outputs them.
+You can enter UV coordinates, time, and movement speed.
+If the input is not connected, use the value of the property.
 
-法線(頂点) (VertexNormalWS)
+
+VertexNormal
 --------------------------------
 
-パーティクルの頂点の法線を出力します。
+Outputs the normals of particle vertices.
 
-法線(画素) (PixelNormalWS)
+PixelNormal
 --------------------------------
 
-法線マップ等により、画素ごとに法線の方向が変更された後のパーティクルの法線を出力します。
+Outputs the particle normal after the direction of the normal has been changed for each pixel by a normal input in OutputNode.
 
-頂点カラー (VertexColor)
+VertexColor
 --------------------------------
 
-パーティクルの頂点カラーを出力します。
+Outputs the vertex color of the particles.
 
-オブジェクト拡大率 (ObjectScale)
+ObjectScale
 --------------------------------
 
-Effekseerでのパーティクルの拡大率を出力します。
+Outputs the enlargement ratio of particles in Effekseer.
 
-ただし、出力ノードのWorldPositionOffsetに使用する場合かつモデルのみ有効です。
+However, only it is valid when used for the OutputNode WorldPositionOffset with the model.

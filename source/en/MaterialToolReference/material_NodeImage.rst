@@ -1,31 +1,31 @@
 ﻿=====================
-マテリアルノード(画像)
+Material Node (Image)
 =====================
 
-概要
+Overview
 ========
 
-ノード一覧
+Node list
 ========
 
 
-画像 (TextureObject)
+Constant Image
 ------------------------
 
-指定した画像を出力します。
-画像なので直接、表示はできません。
+Outputs the specified image.
+It cannot be displayed directly becase it is an image.
 
-画像パラメーター (TextureObjectParameter)
+Parameter Image
 ------------------------
 
-外部から指定した画像を出力します。
-画像なので直接、表示はできません。
-パラメーターに設定された概要と詳細はEffekseerや外部のツールに表示されます。
+Outputs an externally specified image.
+It cannot be displayed directly becase it is an image.
+The summary and details specified in the parameters are displayed in Effekseer and external tools.
 
 TODO:図
 
 
-画像参照 (SampleTexture)
+Sample Image
 ------------------------
 
-画像から画素を取得します。
+Get the pixels from the image.

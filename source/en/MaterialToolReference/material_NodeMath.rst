@@ -1,140 +1,139 @@
 ﻿=====================
-マテリアルノード(計算)
+Material Node (Math)
 =====================
 
-概要
+Overview
 ========
 
-ノード一覧
+Node list
 ========
 
-足し算(Add)
+Add
 ------------------------
 
-V1とV2を足した結果を出力します。
-入力が接続されてない場合、プロパティの値を使用します。
+Outputs the result of adding V1 and V2 is output.
+If the input is not connected, use the value of the property.
 
-引き算(Subtract)
+Subtract
 ------------------------
 
-V1からV2を引いた結果を出力します。
-入力が接続されてない場合、プロパティの値を使用します。
+Outputs the result of subtracting V2 from V1.
+If the input is not connected, use the value of the property.
 
-掛け算(Multiply)
+Multiply
 ------------------------
 
-V1とV2を掛けた結果を出力します。
-入力が接続されてない場合、プロパティの値を使用します。
+Outputs the result of multiplying V1 and V2.
+If the input is not connected, use the value of the property.
 
-割り算(Divide)
+Divide
 ------------------------
 
-V1をV2で割った結果を出力します。
-入力が接続されてない場合、プロパティの値を使用します。
+Outputs the result of dividing V1 by V2.
+If the input is not connected, use the value of the property.
 
-余り(FMod)
+Mod
 ------------------------
 
-V1をV2で割った結果を出力します。
-入力が接続されてない場合、プロパティの値を使用します。
+Outputs the remainder when V1 is divided by V2.
+If the input is not connected, use the value of the property.
 
-切り上げ(Ceil)
+Round up
 ------------------------
 
-Vを切り上げた結果を出力します。
+Outputs the result of rounding up V.
 
-切り下げ(Floor)
+Round down
 ------------------------
 
-Vを切り下げた値を出力します。
+Outputs the value obtained by rounding down V.
 
-小数部(Frac)
+Fractional part
 ------------------------
 
-Vの少数部を出力します。
+Output the fractional part of V.
+For example, if you enter 1.15, it outputs 0.15.
 
-例えば、1.15を入力した場合、0.15を出力します。
-
-最大(Max)
+Maximum
 ------------------------
 
-V1とV2で大きい値を出力します。
+A large value is output for V1 and V2.
 
-最小(Min)
+Minimum
 ------------------------
 
-V1とV2で小さい値を出力します。
+Output small value at V1 and V2.
 
-乗数(Power)
+Power
 ------------------------
 
-BaseをExp乗した値を出力します。
+Outputs the value of Base raised to the power of Exp.
 
-ルート(SquareRoot)
+SquareRoot
 ------------------------
 
-Vのルートを出力します。
+Outputs the root of V.
 
-クランプ(Clamp)
+Clamp
 ------------------------
 
-AをB-Cの間に収めた値を出力します。
+Outputs a value in which V is between Min and Max.
 
-内積(DotProduct)
+Dot
 ------------------------
 
-V1とV2の内積を出力します。
+Outputs the inner product of V1 and V2.
 
-外積(CrossProduct)
+Cross
 ------------------------
 
-V1とV2の外積を出力します。
+Outputs the cross product of V1 and V2.
 
-正規化(Normalize)
+Normalize
 ------------------------
 
-Vを正規化した値を出力します。
-入力された数値の長さが1になるようにします。
+Outputs the normalized value of V.
+Make sure the length of the input number is 1.
 
-線形補間(LinearInterpolate)
+LinearInterpolate
 --------------------------------
 
-V1とV2の間をアルファの割合で補完した値を出力します。
-入力が接続されてない場合、プロパティの値を使用します。
+Outputs the value complemented between V1 and V2 by alpha ratio.
+If the input is not connected, use the value of the property.
 
-アルファが1だったらV1を出力します。
-アルファが0だったらV2を出力します。
-アルファが0.7だったらV1 x 0.3 + V2 x 0.7を出力します。
+If alpha is 1, V1 is output.
+If alpha is 0, output V2.
+If alpha is 0.7, V1 x 0.3 + V2 x 0.7 will be output.
 
 1-x (OneMinus)
 ------------------------
 
-1 - V を出力します。
+Outputs 1-V.
 
-絶対値 (Abs)
+Absolute
 ------------------------
 
-Vの絶対値を出力します。
+Outputs the absolute value of V.
 
 Sine
 ------------------------
 
-VのSineを出力します。
+Outputs V Sine.
 
 Arctangent2
 ------------------------
 
-X/YのArctangentを出力します。
-入力が接続されてない場合、プロパティの値を使用します。
+Outputs X / Y Arctangent.
+If the input is not connected, use the value of the property.
 
-要素抽出 (ComponentMask)
+MaskElements
 --------------------------------
 
-Vから要素を抽出します。
-例えば、数値4の一部を抽出して、数値2を出力します。
+Extract elements from V.
+For example, extract part of number 4 and output number 2.
 
-要素結合 (AppendVector)
+MergeElements
 --------------------------------
 
-V1とV2の要素を結合します。
-例えば、数値3と数値1を入力して、数値4を出力します。
+Join the elements of V1 and V2.
+For example, input number 3 and number 1 and output number 4.
