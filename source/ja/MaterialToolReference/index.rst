@@ -116,6 +116,14 @@ Effekseerでは、マテリアルエディタでEffekseerで使用するマテ�
 
 マテリアルエディタには様々なノードがあります。
 
+.. toctree::
+    :maxdepth: 1
+
+    material_NodeMath
+    material_NodeImage
+    material_NodeModel
+    material_NodeConstant
+
 出力
 ------------------------
 
@@ -189,14 +197,6 @@ Refraction (数値1)
 ------------------------
 
 わかりやすくするためのコメントです。動作には影響しません。
-
-.. toctree::
-    :maxdepth: 1
-
-    material_NodeMath
-    material_NodeImage
-    material_NodeModel
-    material_NodeConstant
 
 計算の挙動の詳細
 ========================

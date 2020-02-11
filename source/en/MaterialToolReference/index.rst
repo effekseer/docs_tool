@@ -120,6 +120,14 @@ Node
 
 There are various nodes in the material editor.
 
+.. toctree::
+    :maxdepth: 1
+
+    material_NodeMath
+    material_NodeImage
+    material_NodeModel
+    material_NodeConstant
+    
 Output
 ------------------------
 
@@ -193,14 +201,6 @@ Comment (Comment)
 ------------------------
 
 Comments for clarity. Does not affect operation.
-
-.. toctree::
-    :maxdepth: 1
-
-    material_NodeMath
-    material_NodeImage
-    material_NodeModel
-    material_NodeConstant
 
 Details of calculation behavior
 ========================

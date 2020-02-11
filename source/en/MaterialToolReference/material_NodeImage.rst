@@ -22,8 +22,8 @@ Outputs an externally specified image.
 It cannot be displayed directly becase it is an image.
 The summary and details specified in the parameters are displayed in Effekseer and external tools.
 
-TODO:図
-
+.. image:: ../../img/Reference/Material/node_ParameterImage.png
+   :align: center
 
 Sample Image
 ------------------------

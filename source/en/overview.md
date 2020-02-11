@@ -466,6 +466,11 @@ Z-sort is now applied to ring and model.
 (Breaking change) 
 Fixed incorrect calculation of ignore of scaling by offset.
 
+#### AttractionForce
+
+It is renamed into ForceField.
+Turbulence was implemented.
+
 #### Optimisation
 
 Update process is 30-50% faster.

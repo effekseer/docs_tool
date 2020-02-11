@@ -138,8 +138,6 @@ The number of generations can be changed externally.
 @O.x = @1 * @P.x
 ```
 
-TODO 図
-
 ### Laser
 
 The length of the laser can be changed externally.
@@ -149,8 +147,6 @@ The size of Z is controlled externally.
 @O.z = @1 * @P.z
 ```
 
-TODO 図
-
 ### Sine Wave
 
 Move like a sine wave.
@@ -159,5 +155,3 @@ Move like a sine wave.
 @O.x = sin(@GTime)
 @O.y = @GTime
 ```
-
-TODO 図

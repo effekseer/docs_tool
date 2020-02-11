@@ -9,23 +9,23 @@
 ========
 
 
-画像 (TextureObject)
+画像
 ------------------------
 
 指定した画像を出力します。
 画像なので直接、表示はできません。
 
-画像パラメーター (TextureObjectParameter)
+画像パラメーター
 ------------------------
 
 外部から指定した画像を出力します。
 画像なので直接、表示はできません。
 パラメーターに設定された概要と詳細はEffekseerや外部のツールに表示されます。
 
-TODO:図
+.. image:: ../../img/Reference/Material/node_ParameterImage.png
+   :align: center
 
-
-画像参照 (SampleTexture)
+画像参照
 ------------------------
 
 画像から画素を取得します。
