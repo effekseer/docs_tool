@@ -13,7 +13,10 @@ It controls parameters with simple code. Parameters can be given externally.
 
 Open the dynamic parameter panel.
 
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/menu_en.png
+   :align: center
+```
 
 #### Add an expression
 
@@ -23,7 +26,10 @@ TODO : 図
 You can add an expression with the add button.
 You can specify the name of the expression and the content of the expression.
 
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/add_en.png
+   :align: center
+```
 
 #### Write an expression
 
@@ -35,24 +41,34 @@ For example, to rewrite the first parameter to 2.0, write as follows.
 
 After that you press Compile. If no problem exists, OK is displayed. If a problem exists, the cause of error is displayed.
 
-TODO : 図
+```
+@O.x = 2.0
+```
+
 
 #### Apply the expression
 
 Right-click on the parameter to which it applies and select Dynamic.
 Then, a field for selecting the expression is displayed.
 
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/select_dynamic_en.png
+   :align: center
+```
 
 Then, select the expression you entered earlier and the expression is applied.
 
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/apply_dynamic_en.png
+   :align: center
+```
 
-位置のパラメーターは0, 0, 0 ですが式でxを1にしているため、1の位置に表示されます。
+The parameter of the position is (0, 0, 0). But a particle is shown on 2 because the expression changes positions into 2
 
-The parameter of the position is (0, 0, 0). But a particle is shown on 1 because the expression changes positions into 1/
-
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/move2.png
+   :align: center
+```
 
 ### Functions of an expression
 

@@ -13,14 +13,20 @@
 
 動的パラメーターのパネルを開きます。
 
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/menu_ja.png
+   :align: center
+```
 
 #### 式の追加
 
 追加ボタンで式を追加できます。
 そこでは、式の名前と式の内容を設定できます。
 
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/add_ja.png
+   :align: center
+```
 
 #### 式の記述
 
@@ -32,22 +38,34 @@ TODO : 図
 
 その後、コンパイルを押します。問題がなければ、OKと表示されます。問題があれば原因が表示されます。
 
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/compile_ja.png
+   :align: center
+```
 
 #### 式の適用
 
 適用先のパラメーターを右クリックし、動的を選択します。
 そうすると、式を選択する欄が表示されます。 
 
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/select_dynamic_ja.png
+   :align: center
+```
 
 そこで、先ほど入力した式を選択すると式が適用されます。
 
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/apply_dynamic_ja.png
+   :align: center
+```
 
-位置のパラメーターは0, 0, 0 ですが式でxを1にしているため、1の位置に表示されます。
+位置のパラメーターは0, 0, 0 ですが式でxを2にしているため、2の位置に表示されます。
 
-TODO : 図
+```eval_rst
+.. image:: ../../img/Reference/DynamicParameter/move2.png
+   :align: center
+```
 
 ### 式の機能
 
