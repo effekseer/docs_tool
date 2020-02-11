@@ -35,7 +35,8 @@ Outputs the normals of particle vertices.
 PixelNormal
 --------------------------------
 
-Outputs the particle normal after the direction of the normal has been changed for each pixel by a normal input in OutputNode.
+Outputs the particle normal after the direction of 
+the normal has been changed for each pixel by a normal input in OutputNode.
 
 VertexColor
 --------------------------------

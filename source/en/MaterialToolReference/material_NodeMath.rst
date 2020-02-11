@@ -51,18 +51,18 @@ Outputs the value obtained by rounding down V.
 Fractional part
 ------------------------
 
-Output the fractional part of V.
+Outputs the fractional part of V.
 For example, if you enter 1.15, it outputs 0.15.
 
 Maximum
 ------------------------
 
-A large value is output for V1 and V2.
+Outputs large value at V1 and V2.
 
 Minimum
 ------------------------
 
-Output small value at V1 and V2.
+Outputs small value at V1 and V2.
 
 Power
 ------------------------
@@ -103,9 +103,9 @@ If the input is not connected, use the value of the property.
 
 If alpha is 1, V1 is output.
 If alpha is 0, output V2.
-If alpha is 0.7, V1 x 0.3 + V2 x 0.7 will be output.
+If alpha is 0.7, V1 x 0.3 + V2 x 0.7 is output.
 
-1-x (OneMinus)
+1-V
 ------------------------
 
 Outputs 1-V.
