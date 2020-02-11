@@ -1,5 +1,5 @@
 ﻿=====================
-Reference(Material)
+Material-Reference
 =====================
 
 Overview
@@ -69,7 +69,9 @@ Delete line or node
 Left-click to select and right-click to display Delete in the menu.
 Select Delete to delete nodes and lines.
 
-TODO : 図
+.. image:: ../../img/Reference/Material/menu_delete_en.png
+   :scale: 80%
+   :align: center
 
 Description of parameters
 ------------------------
@@ -81,18 +83,26 @@ I recommend that you write a clear description.
 Shortcut
 ------------------------
 
-Ctrl + Z - Undo
-Ctrl + Y - Redo
-Ctrl + C - Copy
-Ctrl + V - Paste
-Ctrl + S - Save
+.. csv-table::
+   
+   "Ctrl + Z", "Undo"
+   "Ctrl + Y", "Redo"
+   "Ctrl + C", "Copy"
+   "Ctrl + V", "Paste"
+   "Ctrl + S", "Save"
 
 About lighting
 ========================
 
-You can select whether are particles lighttten with Outout node in a material.
+You can select whether are particles lighttten with the property of Outout node in a material.
 
-TODO : 図
+|pic1| |pic2|
+
+.. |pic1| image:: ../../img/Reference/Material/lighting_lit.png
+   :scale: 100%
+
+.. |pic2| image:: ../../img/Reference/Material/lighting_unlit.png
+   :scale: 100%
 
 Value types of input and output
 ========================
@@ -121,7 +131,13 @@ There are Lit and Unlit lighting.
 If you specify Lit, it will be affected by the light source.
 If you specify Unlit, the entered value is displayed.
 
-TODO : 画像
+|pic1| |pic2|
+
+.. |pic1| image:: ../../img/Reference/Material/lighting_lit.png
+   :scale: 100%
+
+.. |pic2| image:: ../../img/Reference/Material/lighting_unlit.png
+   :scale: 100%
 
 BaseColor (Number3)
 ^^^^^^^^^^^^^^^^^^^^^^^^

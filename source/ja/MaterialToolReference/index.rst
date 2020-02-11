@@ -1,5 +1,5 @@
 ﻿=====================
-リファレンス(マテリアル)
+マテリアル・リファレンス
 =====================
 
 概要
@@ -56,7 +56,7 @@ Effekseerでは、マテリアルエディタでEffekseerで使用するマテ�
 右クリックで表示したメニューにキーワードを入力すると、そのキーワードが含まれるノードのみが表示されます。
 キーワードはマウスオーバーで確認できます。
 
-.. image:: ../../img/Reference/Material/menu_create_node_search_ja
+.. image:: ../../img/Reference/Material/menu_create_node_search_ja.png
    :scale: 80%
    :align: center
 
@@ -66,7 +66,9 @@ Effekseerでは、マテリアルエディタでEffekseerで使用するマテ�
 左クリックで選択し、右クリックを押すと削除がメニューに表示されます。
 削除を選択するとノード、線を削除できます。
 
-TODO : 図
+.. image:: ../../img/Reference/Material/menu_delete_ja.png
+   :scale: 80%
+   :align: center
 
 パラメーターの説明
 ------------------------
@@ -78,18 +80,26 @@ TODO : 図
 ショートカット
 ------------------------
 
-Ctrl + Z - UNDO
-Ctrl + Y - REDO
-Ctrl + C - コピー
-Ctrl + V - 貼り付け
-Ctrl + S - 上書き保存
+.. csv-table::
+   
+   "Ctrl + Z", "UNDO"
+   "Ctrl + Y", "REDO"
+   "Ctrl + C", "コピー"
+   "Ctrl + V", "貼り付け"
+   "Ctrl + S", "上書き保存"
 
 ライティングについて
 ========================
 
-マテリアルの出力ノードでライティングをするか、しないかを選択できます。
+マテリアルの出力ノードのプロパティでライティングをするか、しないかを選択できます。
 
-TODO : 図
+|pic1| |pic2|
+
+.. |pic1| image:: ../../img/Reference/Material/lighting_lit.png
+   :scale: 100%
+
+.. |pic2| image:: ../../img/Reference/Material/lighting_unlit.png
+   :scale: 100%
 
 入出力の値の種類について
 ========================
@@ -117,7 +127,13 @@ TODO : 図
 Litを設定すると、光源の影響を受けるようになります。
 Unlitを設定すると、入力された値を表示します。
 
-TODO : 画像
+|pic1| |pic2|
+
+.. |pic1| image:: ../../img/Reference/Material/lighting_lit.png
+   :scale: 100%
+
+.. |pic2| image:: ../../img/Reference/Material/lighting_unlit.png
+   :scale: 100%
 
 BaseColor (数値3)
 ^^^^^^^^^^^^^^^^^^^^^^^^
