@@ -101,6 +101,7 @@ Until 1.4 there were efkproj and efk, but now efkproj and efk are read-only.
     environment
     options
     depth
+    dynamicParameter
 ```
 
 ## Command Line
