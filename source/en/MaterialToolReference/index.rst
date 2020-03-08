@@ -127,6 +127,7 @@ There are various nodes in the material editor.
     material_NodeImage
     material_NodeModel
     material_NodeConstant
+    material_NodeAdvanced
     
 Output
 ------------------------

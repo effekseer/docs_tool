@@ -123,6 +123,7 @@ Effekseerでは、マテリアルエディタでEffekseerで使用するマテ�
     material_NodeImage
     material_NodeModel
     material_NodeConstant
+    material_NodeAdvanced
 
 出力
 ------------------------

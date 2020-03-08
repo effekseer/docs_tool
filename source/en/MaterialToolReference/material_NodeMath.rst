@@ -38,6 +38,11 @@ Mod
 Outputs the remainder when V1 is divided by V2.
 If the input is not connected, use the value of the property.
 
+Step
+------------------------
+Outputs 1 if the value input to V is larger than Edge, 
+and outputs 0 if it is smaller.
+
 Round up
 ------------------------
 
