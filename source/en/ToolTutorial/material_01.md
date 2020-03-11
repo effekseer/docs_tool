@@ -37,8 +37,8 @@ In order to create a material, change ``` Material ``` to ``` File ``` in ``` Ba
 <img src="../../img/Tutorial/Mat_01/material_create_en.png">
 </div>
 
-Press the Create button. Then you will be asked for the file name of the material and save the material.
-When saving is completed, the material editor starts.
+Press the Create button. A dialog for creating a new material appears.
+When saving material is completed, the material editor starts.
 
 Initially, only ``` Output ``` node exists.
 The value connected to this ``` Output ``` node is drawn on the particle.
