@@ -135,6 +135,8 @@ gifアニメを除いて背景の扱い方を指定できます。
    :align: center
 ```
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqhE_pllD90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### 背景透明化の方法の比較
 
 左から順に、なし、元の画像、生成、生成（ブレンド＋加算）の画像が表示されます。

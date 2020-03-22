@@ -342,7 +342,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ## 更新履歴
 
-### 1.5x（19/xx/xx）
+### 1.50（20/03/18）
 
 #### マテリアル
 

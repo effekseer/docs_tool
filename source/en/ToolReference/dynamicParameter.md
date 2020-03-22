@@ -20,9 +20,6 @@ Open the dynamic parameter panel.
 
 #### Add an expression
 
-追加ボタンで式を追加できます。
-そこでは、式の名前と式の内容を設定できます。
-
 You can add an expression with the add button.
 You can specify the name of the expression and the content of the expression.
 
@@ -101,7 +98,7 @@ Parameters input from the external can be specified from the numeric field on th
 |Parameter|Description|
 |:----|:----|
 |@P.x @P.y @P.z @P.w|Parameters before dynamic parameter is applied|
-|@1 @2 @3 @4|Parameters input from the external|
+|@In0 @In1 @In2 @In3|Parameters input from the external|
 |@GTime|Current time(s)|
 |@PTime|A time since parent particle is generated (s)|
 
@@ -135,7 +132,7 @@ Dynamic parameter can applies to following parameters.
 The number of generations can be changed externally.
 
 ```
-@O.x = @1 * @P.x
+@O.x = @In0 * @P.x
 ```
 
 ### Laser
@@ -144,7 +141,7 @@ The length of the laser can be changed externally.
 The size of Z is controlled externally.
 
 ```
-@O.z = @1 * @P.z
+@O.z = @In0 * @P.z
 ```
 
 ### Sine Wave

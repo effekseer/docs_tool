@@ -346,7 +346,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ## Change log
 
-### 1.5x（19/xx/xx）Next release
+### 1.50（20/03/18）
 
 #### Material
 

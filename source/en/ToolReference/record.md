@@ -139,6 +139,8 @@ When using, draw the added image by addition after drawing the blended image by 
    :align: center
 ```
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqhE_pllD90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Comparison of methods
 
 From left to right, None, Original image, Generate alpha, Generate alpha(Blend+Add) images are displayed.
