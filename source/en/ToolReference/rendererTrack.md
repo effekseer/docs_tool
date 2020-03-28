@@ -16,7 +16,24 @@ The track is drawn by connecting a thick line between all the children of a cert
 <p>"Render Settings" window</p>
 </div>
 
-### The number of spline division (1.4 or later)
+### UV Type
+
+It sets the UV repeat pattern.
+
+#### Strech
+
+It uses one image for the entire track. It is suitable for particles with a long length, such as a laser.
+
+<iframe src='../../Effects/viewer_en.html#References/Render/track_uvtype_strech.efkefc' class='effect'></iframe>
+
+#### Tile
+
+It repeats one image within one track. It is suitable for particles with repeating patterns, such as chains.
+It can also specify not to repeat only the edges.
+
+<iframe src='../../Effects/viewer_en.html#References/Render/track_uvtype_tile.efkefc' class='effect'></iframe>
+
+### The number of spline division
 
 This parameter makes the shape smooth by dividing the track finely. It looks beautiful, although processing becomes heavier.
 

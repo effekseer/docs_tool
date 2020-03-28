@@ -60,6 +60,10 @@ Duplicates the effect in the Z direction this many times.
 Specify the distance between effects when displaying duplicated effects.
 <iframe src='../../Effects/viewer_en.html#References/Behavior/count_set.efkefc'></iframe>
 
+### Playback speed
+
+Specify a playback speed of effects.
+
 ### Point of Attraction
 
 Specify the coordinates of the target point that will be used when Attraction is set in the Attraction Forces window.

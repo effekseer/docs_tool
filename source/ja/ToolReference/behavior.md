@@ -59,6 +59,10 @@
 エフェクトを複数表示する時のエフェクト間の距離を指定します。
 <iframe src='../../Effects/viewer_ja.html#References/Behavior/count_set.efkefc'></iframe>
 
+### 再生速度
+
+エフェクトの再生速度を指定します。
+
 ### ターゲット位置
 
 エフェクトがターゲットに集合する時のターゲットの座標を指定します。

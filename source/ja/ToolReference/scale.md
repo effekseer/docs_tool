@@ -20,7 +20,7 @@
 パーティクルの拡大率を指定します。
 <iframe src='../../Effects/viewer_ja.html#References/Scale/scale.efkefc' class='effect'></iframe>
 
-#### 角度・速度・加速度
+#### 拡大率・速度・加速度
 
 パーティクルの拡大率・速度・加速度を指定します。
 <iframe src='../../Effects/viewer_ja.html#References/Scale/scale_pva.efkefc' class='effect'></iframe>

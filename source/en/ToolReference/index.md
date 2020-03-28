@@ -29,11 +29,11 @@ I will explain parent-child relationships using an example. In this example, nod
 </tr>
 <tr>
 <td>Pan</td>
-<td>Click the middle mouse button and move the mouse while holding.</td>
+<td>Click the middle mouse button or right button + Shift and move the mouse while holding.</td>
 </tr>
 <tr>
 <td>Zoom</td>
-<td>Scroll the mouse wheel to zoom in and out.</td>
+<td>Scroll the mouse wheel or right button + Control to zoom in and out.</td>
 </tr>
 </table>
 </div>
@@ -67,7 +67,9 @@ Left-click and drag a color field to copy the value to another color field.
 
 ### File Format
 
-There are two unique file formats for this tool. The first one is ".efkproj", which is a source effect file edited with the Effekseer tool. The second is ".efk", a compiled effect file to be played at runtime in a game. The ".efk" file can be exported from "File -> output" within the Effekseer editor.
+An effect is saved in a file with "efkefc" format.
+This file can be editted and played with a runtime in a game.
+Until 1.4 there were efkproj and efk, but now efkproj and efk are read-only.
 
 ## Each window
 
@@ -96,8 +98,10 @@ There are two unique file formats for this tool. The first one is ".efkproj", wh
     record
     fileviewer
     global
+    environment
     options
     depth
+    dynamicParameter
 ```
 
 ## Command Line

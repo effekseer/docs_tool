@@ -17,7 +17,24 @@
 <p>「描画」ウインドウ</p>
 </div>
 
-### スプラインの分割数 (1.4以降)
+### UV タイプ
+
+UVの繰り返しパターンを設定します。
+
+#### ストレッチ
+
+軌跡全体で1つの画像を使用します。レーザーなど、1枚の画像が長く表示される表現に適しています。
+
+<iframe src='../../Effects/viewer_ja.html#References/Render/track_uvtype_strech.efkefc' class='effect'></iframe>
+
+#### タイル
+
+1つの軌跡内で1枚の画像を繰り返します。鎖などの繰り返しパターンがある表現に適しています。
+端のみを繰り返さない設定もあります。ループ領域を指定した範囲のみを繰り返します。
+
+<iframe src='../../Effects/viewer_ja.html#References/Render/track_uvtype_tile.efkefc' class='effect'></iframe>
+
+### スプラインの分割数
 
 軌跡を細かく分割して形状を滑らかにします。見た目は綺麗になりますが、処理は重くなります。
 

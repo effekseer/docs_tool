@@ -162,7 +162,16 @@ On
 
 <img src="../../img/Reference/depth_drawingPriority.png"/>
 
+### 深度によるスケール変化の抑制
+
+パーティクルとカメラの距離に依存せずに、ほぼ同じ大きさでパーティクルを表示するようにします。
+ロックオンのマーカー等に適しています。
+
+距離の影響を抑制することもできます。
+
+<iframe src='../../Effects/viewer_ja.html#References/Depth/suppression_of_scaling_by_depth.efkefc'></iframe>
+
 ### ソフトパーティクル
 
-特定のゲームエンジン向けのパラメーターです。1.4現在、Effekseerには反映されません。
+特定のゲームエンジン向けのパラメーターです。1.5現在、Effekseerには反映されません。
 

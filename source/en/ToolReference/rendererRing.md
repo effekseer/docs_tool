@@ -16,16 +16,15 @@ The ring consists of a triple structure of outside, center and inside.
 <p>"Render Settings" window</p>
 </div>
 
-
 ### Rendering Order
 
 Specify the order in which particles are drawn among particles generated from the same node. For "Order of spawn", the first generated particle is the first drawn, while in "Reversed", the first generated particle will be drawn last. That is, in the order of generation, the drawing of the last generated particle is given priority over the first generated particle.
 
 ### Configuration
 
-Specify how to draw the particle's sprite. In the case of "Billboard", the sprite always rotates to face the camera. In the case of "Rotated Billboard", the sprite rotates to face the camera while keeping the Z axis fixed. In the case of "Fixed Y-axis", the sprite rotates to face the camera while keeping the Y axis fixed. For "Fixed", the sprite will match the rotation setting of the particle.
+Specify how to draw the particle's ring. In the case of "Billboard", the ring always rotates to face the camera. In the case of "Rotated Billboard", the ring rotates to face the camera while keeping the Z axis fixed. In the case of "Fixed Y-axis", the ring rotates to face the camera while keeping the Y axis fixed. For "Fixed", the ring will match the rotation setting of the particle.
 
-<iframe src='../../Effects/viewer_en.html#References/Render/render_ring.efkefc' class='effect'></iframe>
+<iframe src='../../Effects/viewer_en.html#References/Render/ring_configuration.efkefc' class='effect'></iframe>
 
 ### Vertex Count
 
@@ -33,9 +32,17 @@ The number of corner verticies that will be used to display the ring. The more c
 
 <iframe src='../../Effects/viewer_en.html#References/Render/render_ring_vertexcount.efkefc' class='effect'></iframe>
 
-### Viewing Angle
+### Shape
 
-The default is 360 degrees, which will form a full circle. You can reduce this value to form a semicircle, or a fan shape.
+It can specify the shape of the ring. 
+
+#### Donut
+
+It can draw a shape like a donut
+
+#### Crescent
+
+It can draw a circle with a part cut. It can set the start / end angle and fade angle of the circle.
 
 <iframe src='../../Effects/viewer_en.html#References/Render/render_ring_viewingangle.efkefc' class='effect'></iframe>
 
