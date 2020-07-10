@@ -380,6 +380,8 @@ Fixed a bug that occurred when the value of a material's step node was negative.
 
 Fixed a bug that recording with high frequency is wrong
 
+Fixed a bug that caused a crash when much particles are spawn
+
 ### 1.52g（20/06/09）
 
 Fixed a bug that pngs with interlacing could not be displayed correctly
