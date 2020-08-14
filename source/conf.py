@@ -41,6 +41,7 @@ release = u''
 extensions = [
     'sphinxcontrib.rawfiles',
     'sphinx_markdown_tables',
+    'recommonmark',
 ]
 rawfiles = ['img', 'Sample', 'Effects']
 # Add any paths that contain templates here, relative to this directory.
