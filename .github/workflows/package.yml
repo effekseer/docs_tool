@@ -1,0 +1,32 @@
+name: package
+
+on:
+  push:
+    branches:    
+      - master
+    tags:
+      - v*
+
+jobs:
+  build:
+
+    runs-on: 	ubuntu-20.04
+    
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: release
+      shell: bash
+      run: |
+        apt-get install python3-sphinx
+        pip3 install -r requirements.txt 
+
+    - name: release
+      shell: bash
+      run: |
+        make html
+
+    - uses: actions/upload-artifact@v1
+      with:
+        name: build
+        path: build
