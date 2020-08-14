@@ -16,7 +16,7 @@ on:
 jobs:
   build:
 
-    runs-on: 	ubuntu-20.04
+    runs-on: 	vs2017-win2016
     
     steps:
     - uses: actions/checkout@v2
@@ -24,15 +24,12 @@ jobs:
     - name: release
       shell: bash
       run: |
-        sudo apt-get update
-        sudo apt-get install python3-sphinx
-        pip3 install --upgrade pip
-        awk 'BEGIN { FS = "==" } { print $1 }' requirements.txt | xargs pip3 install --upgrade
+        python -m pip install -r requirements.txt
 
     - name: release
-      shell: bash
+      shell: cmd
       run: |
-        make html
+        make.bat html
 
     - uses: actions/upload-artifact@v1
       with:
