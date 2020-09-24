@@ -105,14 +105,36 @@ You can also add to the tabs by dragging and dropping them between the tabs.
 
 ### File Format
 
+#### Effect file (efkefc)
 An effect is saved in a file with "efkefc" format.
 This file can be editted and played with a runtime in a game.
-Until 1.4 there were efkproj and efk, but now efkproj and efk are read-only.
 
-## Each window
+Until version 1.4, the roles were separated from efkproj for tool editing and efk for game playback.
+For compatibility, the current version can read efkproj and efk.
+
+#### Resource file
+A few resource files referenced by the effect. There are general file formats and Effekseer's own file formats.
+
+| extension| description   |
+|----------|--------|
+| png      | Texture image file |
+| wav      | Sound wave file |
+| efkmat   | Material file(Create by Material editor) |
+| efkmodel | 3D Model file(Convert from fbx,mqo) |
+| efkcurve | Curve parameter file(Convert from fbx) |
+
+#### Package file (efkpkg)
+An efkpkg file is a package file that contains one or more efkefc files and various resource files.
+
+When you export, the resource files referenced by the effect are automatically packaged with it.
+It can be imported and used in another project of yourself or someone else.
+
+- <a href="fileImport.html">Import</a>
+- <a href="fileExport.html">Export</a>
+
+## Effect parameters
 
 ```eval_rst
-
 .. toctree::
     :maxdepth: 1
 
@@ -122,24 +144,35 @@ Until 1.4 there were efkproj and efk, but now efkproj and efk are read-only.
     locationGene
     rotation
     scale
-    rendererCommon
+    depth
     rendererSprite
     rendererRibbon
     rendererRing
     rendererModel
     rendererTrack
-    fcurve
+    AdvancedRendererCommon1
+    AdvancedRendererCommon2
     sound
-    network
-    culling
-    behavior
-    record
-    fileviewer
+    fcurve
     global
-    environment
-    options
-    depth
+    culling
     dynamicParameter
+```
+
+## Tool functions
+
+```eval_rst
+.. toctree::
+    :maxdepth: 1
+
+    behavior
+    fileviewer
+    environment
+    network
+    record
+    options
+    fileImport
+    fileExport
 ```
 
 ## Command Line
