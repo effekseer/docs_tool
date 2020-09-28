@@ -1,5 +1,20 @@
 ﻿# Release Notes
 
+## 1.52n (20/09/xx)
+
+### Cmmon
+
+- Fixed a bug where scaling was not applied to the cull size.
+- Fixed a bug where material normals was incorrect.
+
+### Tool
+
+- Fixed a bug where the original image of the recording behaved strangely
+
+### WebGL
+
+Fixed a bug where PremultiplyAlpha was not disabled.
+
 ## 1.52m (20/08/28)
 
 ### Common
