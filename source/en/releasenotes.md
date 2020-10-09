@@ -436,27 +436,3 @@ Fixed a bug that random numbers overflowed. The random behavior may change.
 *   Fixed bug: Fixed erroneous operation of copy paste
 
 ## Previous changes are only japanese.
-
-## 1.6x（Next version）
-
-### force field.
-
-Add a lot of different force fields.
-
-### UI.
-
-Change the behavior of the docking panel
-
-Changed to frameless window (Windows)
-
-### Recording
-
-Added a recording size scaling factor to the recording function.
-
-### Options
-
-Added a setting to change the mouse mapping to manipulate the viewport (you can select Maya style, Blender style, etc.).
-
-### Optimization
-
-Implement multithreaded update.
