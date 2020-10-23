@@ -1,6 +1,6 @@
 ﻿# Release Notes
 
-## 1.52n (20/09/xx)
+## 1.52n (20/10/23)
 
 ### Cmmon
 
@@ -10,6 +10,11 @@
 ### Tool
 
 - Fixed a bug where the original image of the recording behaved strangely
+- Changed to show a warning when connecting the normal and the normals in material.
+
+### Runtime
+
+- Fixed a bug that caused a crash when drawing a lot on DirectX12.
 
 ### WebGL
 
