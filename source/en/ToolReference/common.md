@@ -27,6 +27,13 @@ Sets the maximum number of particles that will be generated from this node. You 
 
 Sets how the position of the parent particle affects the particles generated from this node. Please refer to the following section for information regarding inheritance options.
 
+#### Only on create - FollowParent
+
+The child particles move to follow the parent particle.
+The behavior can be controlled by the speed and steering.
+
+TODO : Image
+
 ### Inherit Rotation
 
 Sets how the rotation of parent particles affects particles generated from this node. Please refer to the following section for information regarding inheritance options.
