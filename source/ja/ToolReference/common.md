@@ -34,7 +34,7 @@
 親のパーティクルを追いかけるように子のパーティクルが移動します。
 追跡する速度とステアリングで挙動を制御できます。
 
-TODO : Image
+<div class="video_center"><video autoplay loop="true" muted="true" src="../../movies/Reference/BasicRenderSettings/FollowParent.mp4"/></div>
 
 ### 回転への影響
 

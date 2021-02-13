@@ -41,6 +41,8 @@ Use the F-Curve window to control the position by defining automation curves.
 
 Import the 3D data of the curve created by other software such as Maya, and move the particles along it.
 
+<div class="video_center"><video autoplay loop="true" muted="true" src="../../movies/Reference/Location/NURBS-Curve.mp4"/></div>
+
 #### ViewOffset
 
 Always display particles in the center of the camera.

@@ -32,7 +32,7 @@ Sets how the position of the parent particle affects the particles generated fro
 The child particles move to follow the parent particle.
 The behavior can be controlled by the speed and steering.
 
-TODO : Image
+<div class="video_center"><video autoplay loop="true" muted="true" src="../../movies/Reference/BasicRenderSettings/FollowParent.mp4"/></div>
 
 ### Inherit Rotation
 

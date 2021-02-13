@@ -105,7 +105,10 @@ Windowsでキャッシュを生成した後、キャッシュが存在する状�
 指定された値をパーティクルの色に掛けます。値が大きいほど色が明るくなります。値が1のとき、画像をそのまま使用します。
 マテリアルが標準かライティングのときのみ有効です。
 
-TODO : 画像
+```eval_rst
+.. image:: ../../img/Reference/BasicRender/EmmisiveScaling.png
+   :align: center
+```
 
 ### ブレンド
 
@@ -149,20 +152,20 @@ TODO : 画像
 
 再生を開始するアニメーションの時間を指定します。 例えば、4枚の画像で構成されるアニメーションで2枚目から再生できます。
 
-##### Flip Frame BlendType
+##### アニメーション補間
 
-- None
+- なし
 
-一定時間ごとに切り替えます。
+一定時間ごとに表示する位置を切り替えます。
 
-TODO 画像
+<div class="video_center"><video autoplay loop="true" muted="true" src="../../movies/Reference/BasicRenderSettings/Flip_None.mp4"/></div>
 
-- Lerp
+- 線形補間
 
 アニメーションの切り替わりを線形補完するようにします。
 それにより、急に画像が変化しないようにします。
 
-TODO 画像
+<div class="video_center"><video autoplay loop="true" muted="true" src="../../movies/Reference/BasicRenderSettings/Flip_Lerp.mp4"/></div>
 
 #### スクロール
 

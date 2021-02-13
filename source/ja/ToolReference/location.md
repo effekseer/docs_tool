@@ -35,11 +35,13 @@
 Fカーブを使用します。
 <iframe src='../../Effects/viewer_ja.html#References/Position/f_curve.efkefc' class='effect'></iframe>
 
-#### NURBS-Curve
+#### NURBSカーブ
 
 Maya等、他のソフトウェアで作成したカーブの3Dデータを読み込み、それに沿ってパーティクルを動かします。
 
-#### ViewOffset
+<div class="video_center"><video autoplay loop="true" muted="true" src="../../movies/Reference/Location/NURBS-Curve.mp4"/></div>
+
+#### カメラオフセット
 
 常にカメラの中央にパーティクルを表示します。
 スプライトやモデルのみ有効です。
