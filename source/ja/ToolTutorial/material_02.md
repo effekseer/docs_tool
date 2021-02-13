@@ -4,7 +4,10 @@
 
 本章ではマテリアルを使用してトゥーン風の炎を表現します。マテリアルなしでは難しかった複雑な表現を実現できます。
 
-TODO : 映像かデータ
+<div align="center">
+<iframe src='../../Effects/viewer_ja.html#Tutorials/Mat_02/Fire.efkefc'></iframe>
+<p>本章で作成するエフェクト</p>
+</div>
 
 ## 作成
 
@@ -24,7 +27,10 @@ TODO : 映像かデータ
 ``` 画像参照ノード ``` を追加して、画像には ``` Textures/Noise1.png ``` を選択します。
 このままだと、ただ画像が表示されるだけです。
 
-図
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Grad_Ja.png
+   :align: center
+```
 
 動かすために ``` 移動UVノード ``` を追加します。
 そして、``` 画像参照ノード ```に接続します。
@@ -32,7 +38,10 @@ TODO : 映像かデータ
 
 上下方向に画像が流れるようになりました。
 
-図
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Noise_Moving_Ja.png
+   :align: center
+```
 
 ただ、このままでは雲模様が粗すぎるので細かくします。
 ``` 画像参照ノード ``` のUVに掛け算を接続します。
@@ -42,9 +51,10 @@ TODO : 映像かデータ
 ということは、今まで1枚表示されていた範囲に4枚表示されます。
 今回は横方向にたくさん表示されるようになります。
 
-図
-
-図
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Noise_Enlarge_Ja.png
+   :align: center
+```
 
 このままでは全く炎に見えません。
 動きを複雑にするために歪みを加えます。
@@ -60,58 +70,91 @@ TODO : 映像かデータ
 
 そして、歪みの値をUVに足します。
 
-図
-
 そうすると、画像が歪むようになりました。
 なんとなく炎に見えるかもしれません。
 
-図
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Noise_Distort_Ja.png
+   :align: center
+```
 
 炎は上のほうが暗く、下のほうが明るくなります。
 それを再現するために、グラデーション画像を足したりかけたりします。
 
 画像参照ノードで画像 ``` Textures/Gradation1.png ``` を追加します。
+
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Grad_Ja.png
+   :align: center
+```
+
 そして、先ほどの歪み画像と足し算ノードで足します。
 
 下のほうが光る画像になりました。
 
-図
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Grad_Add_Ja.png
+   :align: center
+```
 
 次に上のほうを暗くするために、先ほどの画像を掛け算ノードで掛けます。
 
 そうすると上のほうが暗くなりました。
-
-図
-
 なんとなく炎のようになってきました。
 
-図
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Grad_Mul_Ja.png
+   :align: center
+```
 
 最後に、着色します。
 
 着色には色のついたグラデーションの画像を使用します。
 画像参照ノードで画像 ``` Textures/Gradation2.png ``` を追加します。
 
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Grad_Color_Ja.png
+   :align: center
+```
+
 そして、要素抽出ノードで先ほどの流れる画像からRGを抽出します。
 それをUVに入力します。
-
-画像参照ノードの出力をEmmisiveに接続します。
 
 グラデーションの画像に沿って色が変わるようになりました。
 入力された流れる画像の色に従って、グラデーション画像の参照する位置が変わっています。
 そのため、グラデーションに従って色が変わるようになります。
 
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Grad_Color_Distort_Ja.png
+   :align: center
+```
+
 同様に、透明度も変更します。
 画像参照ノードで画像 ``` Textures/Gradation3.png ``` を追加します。
 同様に流れる画像を接続します。白い部分が不透明、黒い部分が透明になります。
 
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Grad_OpacityMask_Distort_Ja.png
+   :align: center
+```
+
+画像参照ノードの出力をEmmisiveに接続します。
+
 画像参照ノードの出力をOpacityMaskに接続します。
 
-図
+炎の模様が表示されました。
 
-炎の模様が表示されました。ですが、細かい部分の色がおかしくなっています。
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Output_Ja.png
+   :align: center
+```
 
-図
+ですが、細かい部分の色がおかしくなっています。
+
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/PreResult.png
+   :align: center
+```
 
 その原因は画像参照ノードで画像を参照するときに、リピートが選択されていることです。
 
@@ -124,11 +167,16 @@ UV座標が1.0を超えた時、端を端の色として扱うか、端を繰り
 
 グラデーションの画像参照ノードのリピートをクランプに変更します。
 
-図
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_02/Sampler_Ja.png
+   :align: center
+```
 
 これで完成です。
 
-
+<div align="center">
+<iframe src='../../Effects/viewer_ja.html#Tutorials/Mat_02/Fire.efkefc'></iframe>
+</div>
 
 最後に、本章で作成されたエフェクトをダウンロードできるようにしてみました。
 
