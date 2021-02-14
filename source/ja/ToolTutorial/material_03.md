@@ -7,11 +7,17 @@
 また、連続で再生されていて、途中で消えることがありません。
 本章では、前章の炎を汎用的に使用できるようにします。
 
+<div align="center">
+<iframe src='../../Effects/viewer_ja.html#Tutorials/Mat_03/Fire.efkefc'></iframe>
+<p>本章で作成するエフェクト</p>
+</div>
+
 ## 作成
 
 本章では、前章で作成したエフェクトを元に変更します。
+わかりやすくするために、パーティクルの寿命を変更しています。
 
-DL 前章のエフェクト
+<a href="../../Effects/Tutorials/Mat_03_01.zip">ダウンロード</a>
 
 ### パラメーター
 
@@ -28,20 +34,24 @@ Effekseerのマテリアルにはパラメーターというノードがあり�
 そのため、あまり、変更しないようにしましょう。
 今回は、グラデーションを置き換えるので、名前は、Gradationにします。
 
-図
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_03/Grad_Parameter_Ja.png
+   :align: center
+```
 
 Effekseerにも、グラデーションのパラメーターが表示されました。
 
-図
-
 ここから画像を設定します。
-今回はここに「TODO」を設定します。
+今回はここに``` Textures/Gradation4.png ```を設定します。
 
-図
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_03/Grad_Parameter_Editor_Ja.png
+   :align: center
+```
 
 エフェクトの画像が差し変わりました。
 
-図
+TODO 図
 
 今回はテクスチャを差し替えるようにしましたが、数値もパラメーターにできます。
 
@@ -52,9 +62,21 @@ Effekseerにも、グラデーションのパラメーターが表示されま�
 
 そして、移動UVのSpeedにつなげます。
 
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_03/Grad_Parameter_Ja.png
+   :align: center
+```
+
 Effekseerに表示されるので数値を変更します。
 
+
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_03/Grad_Speed_Editor_Ja.png
+   :align: center
+```
+
 数値を変更すると速度が変わりました。
+
 
 図
 
@@ -71,8 +93,6 @@ Effekseerに表示されるので数値を変更します。
 
 今回はグラデーションマップを移動させることで炎を消します。
 
-図
-
 外部からのパラメーターでグラデーションの参照する位置をずらし、フェードアウトを実現します。
 
 グラデーション画像を透明になる方向に移動させて透明します。
@@ -80,16 +100,32 @@ Effekseerに表示されるので数値を変更します。
 まずは、カスタムデータ1を追加します。
 そして、UVなのでRGに接続します。
 
+
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_03/CustomData_Ja.png
+   :align: center
+```
+
 そして、Effekseerの描画共通パネルからカスタムデータを設定します。
 今回はUVを移動させてフェードインアウトを実現するので、Fカーブを使用します。
 
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_03/CustomData_Editor_Ja.png
+   :align: center
+```
+
 FカーブでRの値を、消えているときは1、表示中は0になるように設定します。
 
-図
+```eval_rst
+.. image:: ../../img/Tutorial/Mat_03/FCurve.png
+   :align: center
+```
 
 そうするとエフェクトがフェードインアウトするようになりました。
 
-DL
+<div align="center">
+<iframe src='../../Effects/viewer_ja.html#Tutorials/Mat_03/Fire.efkefc'></iframe>
+</div>
 
 さらに上記で解説した技術を応用して、ほとんどの画像を差し替え可能にしてモデルも変えてみました。
 一つのマテリアルでこれだけの表現ができます。
@@ -98,7 +134,7 @@ DL
 
 ここからこれらのサンプルをDLできるので是非見てみてください。
 
-DL
+<a href="../../Effects/Tutorials/Mat_03_02.zip">ダウンロード</a>
 
 ## まとめ
 
