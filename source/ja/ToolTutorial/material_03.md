@@ -76,7 +76,7 @@ Effekseerにも、グラデーションのパラメーターが表示されま�
 EffekseerにSpeedが表示されるので数値を変更します。
 
 ```eval_rst
-.. image:: ../../img/Tutorial/Mat_03/Speed_Editor_Ja.png
+.. image:: ../../img/Tutorial/Mat_03/Speed_Parameter_Editor_Ja.png
    :align: center
 ```
 
