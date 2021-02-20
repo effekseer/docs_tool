@@ -66,7 +66,7 @@ Effekseerにも、グラデーションのパラメーターが表示されま�
 名前をSpeedにします。
 デフォルトのパラメーターを(0.1,0.1)にします。
 
-そして、移動UVノードのSpeedにつなげます。
+そして、``` 移動UVノード ``` のSpeedにつなげます。
 
 ```eval_rst
 .. image:: ../../img/Tutorial/Mat_03/Speed_Parameter_Ja.png
