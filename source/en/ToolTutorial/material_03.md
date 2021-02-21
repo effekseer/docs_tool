@@ -8,14 +8,14 @@ Also, it plays continuously and does not disappear in the middle.
 In this chapter, the flames from the previous chapter will be made available for general use.
 
 <div align="center">
-<iframe src='../../Effects/viewer_ja.html#Tutorials/Mat_03/Fire.efkefc'></iframe>
+<iframe src='../../Effects/viewer_en.html#Tutorials/Mat_03/Fire.efkefc'></iframe>
 <p>Effects to be created in this chapter</p>
 </div>
 
 ## Create
 
 In this chapter, we will make changes based on the effects we created in the previous chapter.
-For the sake of clarity, we have changed the lifespan of the particles.
+For the sake of clarity, we have changed the lifetime of the particles.
 
 <a href="../../Effects/Tutorials/Mat_03_01.zip">Download</a>
 
@@ -26,7 +26,7 @@ This node, called Parameters, allows you to change the parameters of the materia
 
 First, to be able to edit the color of the effect from outside, we will replace the gradient image with a parameter.
 
-Add a parameter node for the texture object.
+Add a ```Parameter Image Node```.
 
 Then, connect it to the ``` Sample Image Node ```.
 
@@ -62,7 +62,7 @@ In this case, I tried to replace the texture, but you can also use numerical val
 
 Let's set the speed at which the image flows as a parameter.
 
-Add a parameter 2 node.
+Add a ``` Parameter 2 Node ```.
 Set the name to Speed.
 Set the default parameter to (0.1,0.1).
 
@@ -100,7 +100,7 @@ Shifts the referenced position of the gradient by an external parameter to achie
 
 Makes the gradient image transparent by moving it in the direction it will become transparent.
 
-First, we will add custom data 1.
+First, we will add ``` CustomData 1 Node ```.
 And since it is UV, connect it to RG.
 
 
@@ -109,7 +109,7 @@ And since it is UV, connect it to RG.
    :align: center
 ```
 
-Then, set custom data from Effekseer's drawing common panel.
+Then, set custom data from Effekseer's Basic Render Settings panel.
 In this case, we will use the F-curve since we will be moving the UVs to achieve the fade in and out.
 
 ```eval_rst
@@ -130,7 +130,7 @@ This means that the image will disappear.
 Then the effect will now fade in and out.
 
 <div align="center">
-<iframe src='../../Effects/viewer_ja.html#Tutorials/Mat_03/Fire.efkefc'></iframe>
+<iframe src='../../Effects/viewer_en.html#Tutorials/Mat_03/Fire.efkefc'></iframe>
 </div>
 
 Finally, we have made the effects created in this chapter available for download.

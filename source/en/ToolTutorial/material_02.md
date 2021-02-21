@@ -81,7 +81,8 @@ It may look somewhat like a flame.
 The flame is darker at the top and brighter at the bottom.
 To achieve this, we can add or multiply gradient images.
 
-Add the image ``` Textures/Gradation1.png ``` in the ``` Sample Image Node ```.
+Add an ``` Sample Image Node ``` and select the image ``` Textures/Gradation1.png ```.
+Then, the distorted image and the added image are added together with ``` Add Node ```.
 
 ```eval_rst
 .. image:: ../../img/Tutorial/Mat_02/Grad_En.png
@@ -97,7 +98,7 @@ The image is now glowing at the bottom.
    :align: center
 ```
 
-Next, to darken the upper part of the image, we multiply the previous image by the multiplication node.
+Next, to darken the upper part of the image, we multiply the previous image and the added image with the ``` Multiply Node ```.
 
 When I did so, the upper part of the image became darker.
 It has become somewhat like a flame.
@@ -110,7 +111,7 @@ It has become somewhat like a flame.
 Finally, color it.
 
 Use a colored gradient image for coloring.
-Add the image ``` Textures/Gradation2.png ``` in the ``` Sample Image Node ```.
+Add an ``` Sample Image Node ``` and select the image ``` Textures/Gradation2.png ```.
 
 ```eval_rst
 .. image:: ../../img/Tutorial/Mat_02/Grad_Color_En.png
@@ -145,7 +146,8 @@ For that matter, since the color is the same in the left and right directions th
 Depending on the gradient image, you may want to fix the R value and change only the G value.
 
 Similarly, change the transparency.
-Add the image ``` Textures/Gradation3.png ``` in the ``` Sample Image Node ```.
+Add an ``` Sample Image Node ``` and select the image ``` Textures/Gradation3.png ```.
+
 Connect the flowing images in the same way.White areas will be opaque and black areas will be transparent.
 
 ```eval_rst
@@ -200,7 +202,7 @@ Therefore, we will change the repeat of the gradient's ``` Sample Image Node ```
 It is now complete.
 
 <div align="center">
-<iframe src='../../Effects/viewer_ja.html#Tutorials/Mat_02/Fire.efkefc'></iframe>
+<iframe src='../../Effects/viewer_en.html#Tutorials/Mat_02/Fire.efkefc'></iframe>
 </div>
 
 Finally, I have made the effects created in this chapter available for download.
@@ -210,7 +212,7 @@ Finally, I have made the effects created in this chapter available for download.
 ### How to create a cloud image
 
 This time I am using PhotoShop.
-Create a new image with a resolution of 1024 and select Cloud 1 in PhotoShop.
+Create a new image with a resolution of 1024 and select Clouds in PhotoShop.
 Increase the contrast so that the black and white appear stronger.
 
 Then, reduce the resolution to 512 and save it.
@@ -223,7 +225,7 @@ Then, reduce the resolution to 512 and save it.
 ### How to create a distorted image
 
 This time I am using PhotoShop.
-Create a new image with a resolution of 1024 and select Cloud 1 in PhotoShop.
+Create a new image with a resolution of 1024 and select Clouds in PhotoShop.
 
 Next, we will create a 3072x3072 image.
 Copy 9 cloud patterns from the previous step.
