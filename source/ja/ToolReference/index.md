@@ -145,19 +145,31 @@ efkpkgファイルは1つ以上のefkefcファイルと、各種リソースフ�
     rotation
     scale
     depth
+    rendererCommon
+    rendererCommonAd
     rendererSprite
     rendererRibbon
     rendererRing
     rendererModel
     rendererTrack
-    AdvancedRendererCommon1
-    AdvancedRendererCommon2
     sound
     fcurve
     global
     culling
     dynamicParameter
+    proceduralModel
 ```
+
+## エフェクト機能
+
+```eval_rst
+.. toctree::
+    :maxdepth: 1
+
+    image
+    easing
+```
+
 
 ## ツール機能
 
@@ -194,6 +206,8 @@ efkpkgファイルは1つ以上のefkefcファイルと、各種リソースフ�
      - \*に標準形式で出力
    * - -m \*
      - 標準形式で出力するときのエフェクトの拡大率を\*に設定
+   * - --materialcache
+     - 指定されたエフェクトに含まれているマテリアルのキャッシュを全て生成
 ```
 
 

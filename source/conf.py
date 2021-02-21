@@ -43,7 +43,7 @@ extensions = [
     'sphinx_markdown_tables',
     'recommonmark',
 ]
-rawfiles = ['img', 'Sample', 'Effects']
+rawfiles = ['img', 'movies', 'Sample', 'Effects']
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

@@ -132,6 +132,7 @@ It can be imported and used in another project of yourself or someone else.
 - <a href="fileImport.html">Import</a>
 - <a href="fileExport.html">Export</a>
 
+
 ## Effect parameters
 
 ```eval_rst
@@ -145,18 +146,29 @@ It can be imported and used in another project of yourself or someone else.
     rotation
     scale
     depth
+    rendererCommon
+    rendererCommonAd
     rendererSprite
     rendererRibbon
     rendererRing
     rendererModel
     rendererTrack
-    AdvancedRendererCommon1
-    AdvancedRendererCommon2
     sound
     fcurve
     global
     culling
     dynamicParameter
+    proceduralModel
+```
+
+## Effect features
+
+```eval_rst
+.. toctree::
+    :maxdepth: 1
+
+    image
+    easing
 ```
 
 ## Tool functions
@@ -194,4 +206,6 @@ When starting Effekseer from the command line, you can change the behavior of Ef
      - Output in standard format to \*
    * - -m \*
      - Set the magnification ratio of the effect when outputting in standard format to \*
+   * - --materialcache
+     - Generate a cache of all materials included in the specified effect
 ```
