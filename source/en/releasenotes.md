@@ -4,6 +4,20 @@
 
 [Release note](ReleaseNotes/160)
 
+## 1.53c (21/03/17)
+
+### Common
+
+Fixed a bug where Effekseer crashes when 1.6 files are loaded.
+
+### Editor
+
+Replaced docking panel.
+
+### Runtime
+
+Fixed a bug where effects sometimes blinks with culling
+
 ## 1.53b (21/03/08)
 
 ## Unity
