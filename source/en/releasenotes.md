@@ -4,6 +4,12 @@
 
 [Release note](ReleaseNotes/160)
 
+## 1.53e (21/03/29)
+
+### Editor (Windows)
+
+Fixed a bug where FPS may decrease after Windows10 2004
+
 ## 1.53d (21/03/27)
 
 ### Editor
