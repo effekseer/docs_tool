@@ -1,5 +1,47 @@
 ﻿# 更新履歴
 
+## 1.62 (2021/12/xx)
+
+### 共通
+
+リニア色空間で、ガンマカラーを維持する機能を追加
+
+バッチレンダラーが動いていなかった不具合を修正
+
+抵抗と親の追尾の挙動が生成方法によりおかしくなる不具合を修正
+
+17個のユニフォームがあると描画の結果がおかしくなる不具合を修正
+
+DirectX9のバックエンドで一部のモデルの描画がおかしくなる不具合の修正
+
+### ツール
+
+Improve efkpkg importer
+
+Make a node select with Enter
+
+Fix a FCurve Window behavior
+
+Fix a bug where TextureObject is not imported from efkpkg
+
+Fix a bug where fbx converter cannot convert some fbx
+
+Fix a bug where a node is not selected with right clicking
+
+### Unity
+
+Separate setting files and add a command to create settings (Please read documents)
+
+Add Float Filed to Speed in Emitter Editor
+
+Fix a bug where rendering result is wrong with NativeRenderer and minus depth priority
+
+Fix a bug where a color is wrong with a distortion, Effekseer NativeRenderer and Unity Standard Linear Renderer
+
+### WebGL
+
+Add a feature to load an effect from efkpkg (It requires unzip functions)
+
 ## 1.61e (2021/10/14)
 
 ### 共通
