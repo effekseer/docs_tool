@@ -4,39 +4,39 @@
 
 ### Common
 
-Support a feature to maintain gamma color in a linear color space
+Supported a feature to maintain gamma color in a linear color space
 
-Fix a bug where render batch doesn't work
+Fixed a bug where render batch doesn't work
 
-Fix a bug where a behavior of drag or follow a parent is wrong with a spawn method
+Fixed a bug where a behavior of drag or follow a parent is wrong with a spawn method
 
-Fix a bug where a rendering result is wrong with a material and 17 uniforms
+Fixed a bug where a rendering result is wrong with a material and 17 uniforms
 
-Fix a bug where DirectX9 Runtime failed to render some model
+Fixed a bug where DirectX9 Runtime failed to render some model
 
 ### Tool
 
-Improve efkpkg importer
+Improved efkpkg importer
 
-Make a node select with Enter
+Made a node select with Enter
 
-Fix a FCurve Window behavior
+Fixed a FCurve Window behavior
 
-Fix a bug where TextureObject is not imported from efkpkg
+Fixed a bug where TextureObject is not imported from efkpkg
 
-Fix a bug where fbx converter cannot convert some fbx
+Fixed a bug where fbx converter cannot convert some fbx
 
-Fix a bug where a node is not selected with right clicking
+Fixed a bug where a node is not selected with right clicking
 
 ### Unity
 
-Separate setting files and add a command to create settings (Please read documents)
+Separated setting files and added a command to create user settings (Please read documents)
 
-Add Float Filed to Speed in Emitter Editor
+Added a filed to Speed in Emitter Editor
 
-Fix a bug where rendering result is wrong with NativeRenderer and minus depth priority
+Fixed a bug where a rendering result is wrong with NativeRenderer and minus depth priority
 
-Fix a bug where a color is wrong with a distortion, Effekseer NativeRenderer and Unity Standard Linear Renderer
+Fixed a bug where a rendering result is wrong with a distortion, Effekseer NativeRenderer and Unity Standard Linear Renderer
 
 ### WebGL
 

@@ -16,31 +16,31 @@ DirectX9のバックエンドで一部のモデルの描画がおかしくなる
 
 ### ツール
 
-Improve efkpkg importer
+efkpkg インポーターの改良
 
-Make a node select with Enter
+Enterでノードを選択できるように変更
 
-Fix a FCurve Window behavior
+Fカーブウインドウの挙動を変更
 
-Fix a bug where TextureObject is not imported from efkpkg
+efkpkgからTextureObjectがインポートされない不具合の修正
 
-Fix a bug where fbx converter cannot convert some fbx
+FBXコンバーターがいくつかのfbxを変換できない不具合を修正
 
-Fix a bug where a node is not selected with right clicking
+右クリックでノードを選択できない不具合の修正
 
 ### Unity
 
-Separate setting files and add a command to create settings (Please read documents)
+一部の設定が別のファイルに分離と、設定を生成するコマンドを追加 (ドキュメントを読んでください)
 
-Add Float Filed to Speed in Emitter Editor
+エミッターのスピードにフィールドが追加
 
-Fix a bug where rendering result is wrong with NativeRenderer and minus depth priority
+NativeRendererとマイナスの深度の優先度で描画結果がおかしくなる不具合を修正
 
-Fix a bug where a color is wrong with a distortion, Effekseer NativeRenderer and Unity Standard Linear Renderer
+Unity Standard Linear RendererとEffekseer NativeRendererと歪みで描画結果がおかしくなる不具合の修正
 
 ### WebGL
 
-Add a feature to load an effect from efkpkg (It requires unzip functions)
+efkpkgからエフェクトをロードする機能の追加 (unzipの機能が必要です)
 
 ## 1.61e (2021/10/14)
 
