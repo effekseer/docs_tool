@@ -1,6 +1,6 @@
 ﻿# Release Notes
 
-## 1.62 (Dec xx, 2021)
+## 1.62 (Dec 29, 2021)
 
 ### Common
 
@@ -27,6 +27,8 @@ Fixed a bug where TextureObject is not imported from efkpkg
 Fixed a bug where fbx converter cannot convert some fbx
 
 Fixed a bug where a node is not selected with right clicking
+
+Changed a library to show a dialog into Zenity
 
 ### Unity
 
