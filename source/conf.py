@@ -199,8 +199,8 @@ def setup(app):
             }, True)
     app.add_transform(AutoStructify)
     
-    app.add_javascript('js/three.min.js')
-    app.add_javascript('js/effekseer.min.js')
-    app.add_javascript('js/iframe.js')
-    app.add_javascript('js/OrbitControls.js')
-    app.add_stylesheet('css/custom.css')
+    app.add_js_file('js/three.min.js')
+    app.add_js_file('js/effekseer.min.js')
+    app.add_js_file('js/iframe.js')
+    app.add_js_file('js/OrbitControls.js')
+    app.add_css_file('css/custom.css')

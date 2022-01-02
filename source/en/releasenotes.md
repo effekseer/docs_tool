@@ -1,6 +1,6 @@
 ﻿# Release Notes
 
-## 1.62 (Dec 29, 2021)
+## 1.62 (Jan 02, 2022)
 
 ### Common
 
