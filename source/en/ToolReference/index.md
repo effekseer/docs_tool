@@ -143,6 +143,7 @@ It can be imported and used in another project of yourself or someone else.
     location
     locationAbs
     locationGene
+    killRules
     rotation
     scale
     depth
