@@ -186,6 +186,7 @@ It can be imported and used in another project of yourself or someone else.
     options
     fileImport
     fileExport
+    recoveringData
 ```
 
 ## Command Line
