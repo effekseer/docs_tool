@@ -31,7 +31,7 @@ For example, if size is set to (0.5, 0.5, 0.5) the box will have a width, height
 If enabled, particles will be killed when they fall INSIDE the box.
 If disabled (the default), they will be killed when they fall OUTSIDE the box.
 
-#### Scale And Position Applied
+#### Scale And Rotation Applied
 
 If enabled (the default), the box will be rotated and scaled with effect.
 If disabled, the box will be axis aligned and have a fixed size.
@@ -56,7 +56,7 @@ For example, if the axis is set +Y particles will be killed when they are above 
 Defines how far plane will be moved along its axis.
 For example, if the axis is set to +Y and the plane offset is set to 1.0, then particles will be killed when their Y position is greater than 1.0, but if the axis is set to -Y and plane offset is set to 1.0, then particles will be killed when their Y position is less than -1.0.
 
-#### Scale And Position Applied
+#### Scale And Rotation Applied
 
 If enabled (the default) plane orientation will be rotated when effect orientation changes, and the plane's offset will be scaled with the effect's scale.
 If disabled, the plane's orientation will remain fixed and its offset won't change with effect scale.
@@ -83,7 +83,7 @@ Radius of the sphere.
 If enabled, particles will be killed when they fall INSIDE the sphere.
 If disabled (the default), they will be killed when they fall OUTSIDE the sphere.
 
-#### Scale And Position Applied
+#### Scale And Rotation Applied
 
 If enabled (the default) the sphere position will be rotated relative to the effect's space origin and the sphere's radius will be scaled with the effect's scale.
 If disabled, the sphere position will remain at a constant position relative to the effect's space origin and radius will be fixed.
