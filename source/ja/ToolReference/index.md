@@ -142,6 +142,7 @@ efkpkgファイルは1つ以上のefkefcファイルと、各種リソースフ�
     location
     locationAbs
     locationGene
+    killRules
     rotation
     scale
     depth
@@ -185,6 +186,7 @@ efkpkgファイルは1つ以上のefkefcファイルと、各種リソースフ�
     options
     fileImport
     fileExport
+    recoveringData
 ```
 
 ## コマンドライン
