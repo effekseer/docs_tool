@@ -34,6 +34,14 @@ UVの繰り返しパターンを設定します。
 
 <iframe src='../../Effects/viewer_ja.html#References/Render/track_uvtype_tile.efkefc' class='effect'></iframe>
 
+### スムージング
+
+### 色の時間の取得元
+
+#### グループ
+
+#### 最初のパーティクル
+
 ### スプラインの分割数
 
 軌跡を細かく分割して形状を滑らかにします。見た目は綺麗になりますが、処理は重くなります。
