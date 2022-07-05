@@ -124,6 +124,9 @@ Effekseerでは、マテリアルエディタでEffekseerで使用するマテ�
     material_NodeModel
     material_NodeConstant
     material_NodeAdvanced
+    material_NodeGradient
+    material_NodeNoise
+    material_NodeEnvironment
 
 出力
 ------------------------
