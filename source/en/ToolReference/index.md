@@ -187,6 +187,7 @@ It can be imported and used in another project of yourself or someone else.
     fileImport
     fileExport
     recoveringData
+    drawMode
 ```
 
 ## Command Line
