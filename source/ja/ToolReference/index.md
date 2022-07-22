@@ -157,6 +157,7 @@ efkpkgファイルは1つ以上のefkefcファイルと、各種リソースフ�
     fcurve
     global
     culling
+    levelsOfDetails
     dynamicParameter
     proceduralModel
 ```
@@ -187,6 +188,7 @@ efkpkgファイルは1つ以上のefkefcファイルと、各種リソースフ�
     fileImport
     fileExport
     recoveringData
+    drawMode
 ```
 
 ## コマンドライン
