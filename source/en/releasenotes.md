@@ -1,5 +1,9 @@
 ﻿# Release Notes
 
+## 1.7
+
+[Release note](ReleaseNotes/170)
+
 ## 1.62d (Apr. 17, 2022)
 
 ### Common
