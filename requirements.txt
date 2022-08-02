@@ -1,5 +1,5 @@
 ###### Requirements without Version Specifiers ######
-Markdown==3.3.7
+Markdown
 astroid
 sphinx
 commonmark
