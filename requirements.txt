@@ -1,9 +1,9 @@
 ###### Requirements without Version Specifiers ######
 Markdown==3.3.7
-astroid
-sphinx
-commonmark
-recommonmark
+astroid==2.12.2
+sphinx==5.0.2
+commonmark==0.9.1
+recommonmark==0.7.1
 sphinx-markdown-tables==0.0.16
-sphinx_rtd_theme
-sphinxcontrib-rawfiles
+sphinx_rtd_theme==1.0.0
+sphinxcontrib-rawfiles==0.1.1
