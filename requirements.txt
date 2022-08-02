@@ -4,6 +4,6 @@ astroid
 sphinx
 commonmark
 recommonmark
-sphinx-markdown-tables
+sphinx-markdown-tables==0.0.16
 sphinx_rtd_theme
 sphinxcontrib-rawfiles
