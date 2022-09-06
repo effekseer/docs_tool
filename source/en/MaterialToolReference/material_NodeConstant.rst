@@ -49,6 +49,11 @@ Time
 
 Outputs the current time in seconds.
 
+LocalTime
+------------------------
+
+Outputs the time in seconds since the effect was generated.
+
 CameraPosition
 ------------------------
 

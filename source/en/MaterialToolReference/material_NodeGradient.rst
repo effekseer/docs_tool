@@ -11,9 +11,6 @@ Node list
 SampleGradient
 ------------------------
 
-グラディエントから、指定した位置の色を参照して出力します。
-グラディエントに入力が設定されていない場合、このノードのグラディエントを使用します。
-
 Outputs a color reference from the gradient to the color at the specified location.
 If no input is set for the gradient, the gradient of this node is used.
 
