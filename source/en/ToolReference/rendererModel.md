@@ -28,7 +28,15 @@ If you want to use a procedural model, create a model in the Procedural Model pa
 
 ### Configuration
 
-Specify how to draw the particle's model. In the case of "Billboard", the sprite always rotates to face the camera. In the case of "Rotated Billboard", the model rotates to face the camera while keeping the Z axis fixed. In the case of "Fixed Y-axis", the sprite rotates to face the camera while keeping the Y axis fixed. For "Fixed", the model will match the rotation setting of the particle.
+Specify how to draw the particle's model.
+
+| Configuration         | Description |
+|-----------------------|-----------------------------------|
+| Billboard             | The model always rotates to face the camera. |
+| Rotated Billboard     | The model rotates to face the camera while keeping the Z axis fixed. |
+| Directional Billboard | The model rotates to face the camera while the Y+ direction toward the direction of movement. |
+| Fixed Y-axis          | The model rotates to face the camera while keeping the Y axis fixed. |
+| Fixed                 | The model will match the rotation setting of the particle. |
 
 <iframe src='../../Effects/viewer_en.html#References/Render/model_configuration.efkefc'></iframe>
 
