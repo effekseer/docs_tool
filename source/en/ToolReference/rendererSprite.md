@@ -20,7 +20,15 @@ Specify the order in which sprites are drawn among sprites generated from the sa
 
 ### Configuration
 
-Specify how to draw the particle's sprite. In the case of "Billboard", the sprite always rotates to face the camera. In the case of "Rotated Billboard", the sprite rotates to face the camera while keeping the Z axis fixed. In the case of "Fixed Y-axis", the sprite rotates to face the camera while keeping the Y axis fixed. For "Fixed", the sprite will match the rotation setting of the particle.
+Specify how to draw the particle's sprite.
+
+| Configuration         | Description |
+|-----------------------|-----------------------------------|
+| Billboard             | The sprite always rotates to face the camera. |
+| Rotated Billboard     | The sprite rotates to face the camera while keeping the Z axis fixed. |
+| Directional Billboard | The sprite rotates to face the camera while the Y+ direction toward the direction of movement. |
+| Fixed Y-axis          | The sprite rotates to face the camera while keeping the Y axis fixed. |
+| Fixed                 | The sprite will match the rotation setting of the particle. |
 
 <iframe src='../../Effects/viewer_en.html#References/Render/sprite_configuration.efkefc'></iframe>
 
