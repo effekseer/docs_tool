@@ -194,6 +194,15 @@ from recommonmark.transform import AutoStructify
 
 html_show_sourcelink = False
 
+def html_page_context(app, pagename, templatename, context, doctree):
+    # setup page language
+    if pagename.startswith('ja/'):
+        context['language'] = 'ja'
+    elif pagename.startswith('en/'):
+        context['language'] = 'en'
+    elif pagename.startswith('zh_CN/'):
+        context['language'] = 'zh_CN'
+
 def setup(app):
     app.add_config_value('recommonmark_config', {
             }, True)
@@ -204,3 +213,5 @@ def setup(app):
     app.add_js_file('js/iframe.js')
     app.add_js_file('js/OrbitControls.js')
     app.add_css_file('css/custom.css')
+
+    app.connect('html-page-context', html_page_context)
