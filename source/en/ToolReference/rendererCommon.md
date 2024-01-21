@@ -118,6 +118,10 @@ Specifies the method of alpha blending applied when displaying the particle. Thi
 
 Specify the filtering method to be applied when displaying the particle.
 
+### Wrap
+
+Specifies how to calculate the position to reference the image if the UV is below 0.0 or above 1.0.
+
 ### Depth Set
 
 Specify whether to write depth information when displaying particles. After writing the depth information, if you draw the particles for which the depth test is enabled, if the particles are deep inside, they will not be drawn.
