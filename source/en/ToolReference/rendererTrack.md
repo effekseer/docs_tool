@@ -28,6 +28,11 @@ It uses one image for the entire track. It is suitable for particles with a long
 
 #### Tile
 
+It repeats a single image within one track. This is suitable for expressions with repeating patterns, such as chains.
+The length of repetition can be specified.
+
+#### Tile (By Particle)
+
 It repeats one image within one track. It is suitable for particles with repeating patterns, such as chains.
 It can also specify not to repeat only the edges.
 

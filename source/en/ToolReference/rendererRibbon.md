@@ -34,6 +34,11 @@ It uses one image for the entire ribbon. It is suitable for particles with a lon
 
 #### Tile
 
+It repeats a single image within one ribbon. This is suitable for expressions with repeating patterns, such as chains.
+The length of repetition can be specified.
+
+#### Tile (By Particle)
+
 It repeats one image within one ribbon. It is suitable for particles with repeating patterns, such as chains.
 It can also specify not to repeat only the edges.
 

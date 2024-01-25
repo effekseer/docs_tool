@@ -38,3 +38,7 @@ Use an F-curve to modify the rotational value over the lifetime of the particle.
 
 Rotates so that the Z-axis points toward the camera.
 Since it uses the position of the camera, it will not work correctly if multiple cameras are present.
+
+#### Rotate in the direction of movement
+
+Rotates the particle so that the specified axis points in the direction of movement.
