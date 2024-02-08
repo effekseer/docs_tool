@@ -4,7 +4,7 @@
 
 衝突に関するパラメーターを設定します。衝突を有効にすると指定した面に衝突したパーティクルが跳ね返るようになります。
 
-TODO : image
+![](../../img/Reference/Collisions/collisions.gif)
 
 ## パラメーター
 

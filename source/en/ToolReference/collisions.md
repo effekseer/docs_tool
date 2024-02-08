@@ -4,7 +4,7 @@
 
 Specify parameters for collision. Enabling collision causes particles that collide with the specified surface to bounce back.
 
-TODO : image
+![](../../img/Reference/Collisions/collisions.gif)
 
 ## Parameters
 
