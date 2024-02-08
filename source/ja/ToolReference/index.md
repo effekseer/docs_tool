@@ -160,6 +160,7 @@ efkpkgファイルは1つ以上のefkefcファイルと、各種リソースフ�
     levelsOfDetails
     dynamicParameter
     proceduralModel
+    collisions
 ```
 
 ## エフェクト機能
