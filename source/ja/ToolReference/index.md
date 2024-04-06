@@ -191,6 +191,7 @@ efkpkgファイルは1つ以上のefkefcファイルと、各種リソースフ�
     fileExport
     recoveringData
     drawMode
+    profiler
 ```
 
 ## コマンドライン

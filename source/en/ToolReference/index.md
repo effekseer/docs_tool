@@ -191,6 +191,7 @@ It can be imported and used in another project of yourself or someone else.
     fileExport
     recoveringData
     drawMode
+    profiler
 ```
 
 ## Command Line
