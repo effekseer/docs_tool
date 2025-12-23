@@ -1,0 +1,6 @@
+[submodule "Targets/Effekseer"]
+	path = Targets/Effekseer
+	url = https://github.com/effekseer/Effekseer.git
+[submodule "Targets/EffekseerForUnity"]
+	path = Targets/EffekseerForUnity
+	url = https://github.com/effekseer/EffekseerForUnity.git

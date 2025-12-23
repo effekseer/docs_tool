@@ -120,7 +120,7 @@ Shiftと同時にクリックすることで、子ノードも含めて表示を
 | png      | テクスチャ画像ファイル |
 | wav      | サウンド波形ファイル |
 | efkmat   | マテリアルファイル(マテリアルエディタで作成) |
-| efkmodel | モデルファイル(fbx,mqoから変換) |
+| efkmodel | モデルファイル(fbx,mqo,gltf,glb,obj,geo,bgeoから変換) |
 | efkcurve | カーブファイル(fbxから変換) |
 
 #### パッケージファイル (efkpkg)
