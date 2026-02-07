@@ -1,0 +1,2 @@
+source/**/*.md text eol=lf working-tree-encoding=UTF-8
+source/**/*.rst text eol=lf working-tree-encoding=UTF-8
