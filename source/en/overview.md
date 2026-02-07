@@ -1,4 +1,4 @@
-﻿# Overview
+# Overview
 
 ## Operating Environment, Required Runtimes, etc.
 

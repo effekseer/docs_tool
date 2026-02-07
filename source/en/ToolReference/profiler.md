@@ -1,4 +1,4 @@
-﻿# Profiler
+# Profiler
 	
 ## Overview
 The Profiler is a tool to monitor how effects created with Effekseer are working.

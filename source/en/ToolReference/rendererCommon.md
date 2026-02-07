@@ -1,4 +1,4 @@
-﻿# Basic Render Settings
+# Basic Render Settings
 
 ## Overview
 

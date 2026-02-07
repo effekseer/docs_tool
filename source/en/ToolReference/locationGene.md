@@ -1,4 +1,4 @@
-﻿# Spawning Method
+# Spawning Method
 
 ## Overview
 

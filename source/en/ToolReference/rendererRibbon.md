@@ -1,4 +1,4 @@
-﻿# Render - Ribbon
+# Render - Ribbon
 
 ## Overview
 

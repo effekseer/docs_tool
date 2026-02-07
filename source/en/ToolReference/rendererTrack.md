@@ -1,4 +1,4 @@
-﻿# Render - Track
+# Render - Track
 
 ## Overview
 

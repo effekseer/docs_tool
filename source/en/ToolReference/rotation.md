@@ -1,4 +1,4 @@
-﻿# Rotation
+# Rotation
 
 ## Overview
 

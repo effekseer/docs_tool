@@ -1,4 +1,4 @@
-﻿# GPU Particles
+# GPU Particles
 
 ## Overview
 

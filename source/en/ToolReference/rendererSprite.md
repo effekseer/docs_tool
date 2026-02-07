@@ -1,4 +1,4 @@
-﻿# Render - Sprite
+# Render - Sprite
 
 ## Overview
 

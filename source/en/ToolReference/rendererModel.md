@@ -1,4 +1,4 @@
-﻿# Render - Model
+# Render - Model
 
 ## Overview
 

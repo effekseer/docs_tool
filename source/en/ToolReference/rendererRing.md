@@ -1,4 +1,4 @@
-﻿# Render - Ring
+# Render - Ring
 
 ## Overview
 

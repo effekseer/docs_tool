@@ -1,4 +1,4 @@
-﻿# Basic settings
+# Basic settings
 
 ## Overview
 
