@@ -28,6 +28,7 @@ If you want to use a procedural model, create a model in the Procedural Model pa
 
 In the editor, external models reference entries registered in [Behavior](behavior.html).
 At runtime, provide external models when playing the effect, and specify the external model index on the rendering side.
+Also specify local or world coordinate space as needed.
 
 ### Configuration
 

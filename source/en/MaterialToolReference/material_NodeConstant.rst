@@ -54,6 +54,12 @@ LocalTime
 
 Outputs the time in seconds since the effect was generated.
 
+ParticleTime
+------------------------
+
+Outputs each particle's normalized lifetime progress and elapsed seconds.
+Since each particle can have different values, this is useful for per-particle animation control.
+
 CameraPosition
 ------------------------
 
