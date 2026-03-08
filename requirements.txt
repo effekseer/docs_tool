@@ -1,9 +1,9 @@
-###### Requirements without Version Specifiers ######
-Markdown
-astroid
-sphinx
-commonmark
-recommonmark
-sphinx-markdown-tables
-sphinx_rtd_theme
-sphinxcontrib-rawfiles
+# Install these dependencies in a virtual environment to keep the docs
+# toolchain isolated from globally installed Python tools such as Poetry.
+#
+# The version ranges below are the latest ones verified with this repository.
+sphinx>=8.1,<9
+recommonmark>=0.7.1,<0.8
+sphinx-markdown-tables>=0.0.17,<0.1
+sphinx_rtd_theme>=3.1,<4
+sphinxcontrib-rawfiles>=0.1.1,<0.2

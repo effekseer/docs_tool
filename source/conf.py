@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-#
 # Configuration file for the Sphinx documentation builder.
 #
 # This file does only contain a selection of the most common options. For a
@@ -19,14 +17,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Effekseer Help'
-copyright = u'2019, Effekseer'
-author = u'Effekseer'
+project = 'Effekseer Help'
+copyright = '2019, Effekseer'
+author = 'Effekseer'
 
 # The short X.Y version
-version = u''
+version = ''
 # The full version, including alpha/beta/rc tags
-release = u''
+release = ''
 
 
 # -- General configuration ---------------------------------------------------
@@ -51,7 +49,10 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = ['.rst', '.md']
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 from recommonmark.parser import CommonMarkParser
 
@@ -67,7 +68,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = u'ja'
+language = 'ja'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -82,12 +83,7 @@ pygments_style = None
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
-import sphinx_rtd_theme
-
 html_theme = "sphinx_rtd_theme"
-
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -141,8 +137,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'EffekseerDoc.tex', u'EffekseerDoc Documentation',
-     u'Effekseer', 'manual'),
+    (master_doc, 'EffekseerDoc.tex', 'EffekseerDoc Documentation',
+     'Effekseer', 'manual'),
 ]
 
 
@@ -151,7 +147,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'effekseerdoc', u'EffekseerDoc Documentation',
+    (master_doc, 'effekseerdoc', 'EffekseerDoc Documentation',
      [author], 1)
 ]
 
@@ -162,7 +158,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'EffekseerDoc', u'EffekseerDoc Documentation',
+    (master_doc, 'EffekseerDoc', 'EffekseerDoc Documentation',
      author, 'EffekseerDoc', 'One line description of project.',
      'Miscellaneous'),
 ]
@@ -204,10 +200,9 @@ def html_page_context(app, pagename, templatename, context, doctree):
         context['language'] = 'zh_CN'
 
 def setup(app):
-    app.add_config_value('recommonmark_config', {
-            }, True)
+    app.add_config_value('recommonmark_config', {}, True)
     app.add_transform(AutoStructify)
-    
+
     app.add_js_file('js/three.min.js')
     app.add_js_file('js/effekseer.min.js')
     app.add_js_file('js/iframe.js')
